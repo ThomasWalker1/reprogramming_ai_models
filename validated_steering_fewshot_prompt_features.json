@@ -1,0 +1,78 @@
+[
+  {
+    "id": 1,
+    "steering_features": {
+      "Time-related mathematical operations and conversions": 0.5,
+      "Time durations in schedules or activities": 0.2,
+      "The model is providing a list of options": 0.5
+    }
+  },
+  {
+    "id": 2,
+    "steering_features": {
+      "Explanatory connectives in step-by-step reasoning": 0.1,
+      "Introduction of explanatory statements in question-answering contexts": 0.3,
+      "Polite and appreciative language in structured formal communication": 0.3,
+      "Numerical values in math problems or quantitative descriptions": 0.2
+    }
+  },
+  {
+    "id": 3,
+    "steering_features": {
+      "Step-by-step reasoning or problem-solving approach": 0.4,
+      "Introduction of explanatory statements in question-answering contexts": -0.5
+    }
+  },
+  {
+    "id": 10,
+    "steering_features": {
+      "Data structure and formatting elements": 0.1,
+      "Start of user input in conversation structure": 0.1,
+      "Start of a new conversation or interaction": 0.1
+    }
+  },
+  {
+    "id": 11,
+    "steering_features": {
+      "Data structure and formatting elements": 0.1,
+      "Polite and appreciative language in structured formal communication": 0.1
+    }
+  },
+  {
+    "id": 12,
+    "steering_features": {
+      "The model is providing scientific classification or technical explanation": 0.1,
+      "Polite and appreciative language in structured formal communication": 0.1
+    }
+  },
+  {
+    "id": 13,
+    "steering_features": {
+      "Framing mathematical or logical problem-solving steps": 0.1,
+      "Data structure and formatting elements": 0.1,
+      "Spatial relationships and positioning in descriptive text": 0.1,
+      "Subtraction or removal operations": 0.1,
+      "Code syntax elements, particularly variable assignments and function calls": 0.1
+    }
+  },
+  {
+    "id": 14,
+    "steering_features": {}
+  },
+  {
+    "id": 15,
+    "steering_features": {}
+  },
+  {
+    "id": 16,
+    "steering_features": {
+      "Movie-related content and discussions": 0.2
+    }
+  },
+  {
+    "id": 18,
+    "steering_features": {
+      "Action verbs in step-by-step instructions or processes": 0.5
+    }
+  }
+]
