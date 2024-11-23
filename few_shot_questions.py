@@ -6,7 +6,7 @@ from tqdm import tqdm
 with open("key.txt","r") as file:
     client=Client(api_key=file.readlines()[0])
 
-with open("few_shot_questions.json","r") as file:
+with open("few_shot_questions.json","r",encoding="utf-8") as file:
     questions=json.load(file)
 
 variant = goodfire.Variant("meta-llama/Meta-Llama-3-8B-Instruct")
