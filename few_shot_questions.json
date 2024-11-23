@@ -49,10 +49,26 @@
     },
     {
         "id": 7,
-        "cot": "Q: : A coin is heads up. Maybelle flips the coin. Shalonda does not flip the coin. Is the coin still heads up?\nA:  The coin was flipped by Maybelle. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. So the answer is no.",
-        "direct": "Q: : A coin is heads up. Maybelle flips the coin. Shalonda does not flip the coin. Is the coin still heads up?\nA: The answer is no.",
+        "cot": "Q: A coin is heads up. Maybelle flips the coin. Shalonda does not flip the coin. Is the coin still heads up?\nA:  The coin was flipped by Maybelle. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. So the answer is no.",
+        "direct": "Q: A coin is heads up. Maybelle flips the coin. Shalonda does not flip the coin. Is the coin still heads up?\nA: The answer is no.",
         "question": "Q: A coin is heads up. Millicent does not flip the coin. Conception flips the coin. Is the coin still heads up?\nA: ",
         "cot_answer": "Since Conception flips the coin, the coin has been flipped an even number of times (1 flip). Since the coin started heads up, it will still be heads up after an even number of flips. So, the answer is yes, the coin is still heads up!",
         "direct_answer": "The answer is no."
+    },
+    {
+        "id": 8,
+        "cot": "Q: A coin is heads up. Sal flips the coin. Raymond does not flip the coin. Is the coin still heads up?\nA: The coin was flipped by Sal. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. So the answer is no.",
+        "direct": "Q: A coin is heads up. Sal flips the coin. Raymond does not flip the coin. Is the coin still heads up?\nA: The answer is no.",
+        "question": "Q: A coin is heads up. Conception flips the coin. Kristian does not flip the coin. Is the coin still heads up?\nA: ",
+        "cot_answer": "Since Conception flips the coin, that's an odd number of flips. Since the coin started heads up, it will now be tails up after an odd number of flips. So, the answer is no, the coin is not still heads up.",
+        "direct_answer": "The answer is no."
+    },
+    {
+        "id": 9,
+        "cot": "Q: A coin is heads up. Inga does not flip the coin. Elanor does not flip the coin. Is the coin still heads up?\nA:  The coin was flipped by no one. So the coin was flipped 0 times. The coin started heads up, and it was not flipped, so it is still heads up. So the answer is yes.",
+        "direct": "Q: A coin is heads up. Inga does not flip the coin. Elanor does not flip the coin. Is the coin still heads up?\nA: The answer is yes.",
+        "question": "Q: A coin is heads up. Ryan and Shaunda both decide to flip the coin. Is the coin still heads up?\nA: ",
+        "cot_answer": "A new scenario! Let's break it down. Ryan and Shaunda both decide to flip the coin, but they don't actually flip it. Since they both decide to flip, but don't follow through, the coin remains untouched. And since it started heads up, it's still heads up! So, the answer is yes, the coin is still heads up.",
+        "direct_answer": "Since Ryan and Shaunda both decide to flip the coin, it will definitely change from heads up to either heads or tails!"
     }
 ]
