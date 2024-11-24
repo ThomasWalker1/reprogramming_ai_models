@@ -1,0 +1,11 @@
+{
+  "Polite and appreciative language in structured formal communication": 0.5,
+  "Data structure and formatting elements": 0.3,
+  "Introduction of explanatory statements in question-answering contexts": 0.3,
+  "Step-by-step reasoning or problem-solving approach": 0.4,
+  "Action verbs in step-by-step instructions or processes": 0.5,
+  "The model is providing a list of options": 0.5,
+  "Explanatory connectives in step-by-step reasoning": 0.1,
+  "Framing mathematical or logical problem-solving steps": 0.1,
+  "The model is providing scientific classification or technical explanation": 0.1
+}
