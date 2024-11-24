@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "questions": [
+            {
+                "question": "Mr. Mendez awards extra credit on quizzes to his students with quiz grades that exceed the class mean. Given that 107 students take the same quiz, what is the largest number of students who can be awarded extra credit?",
+                "answer": ""
+            }
+        ],
+        "prompt": "Answer the following question.\nQ: Mr. Mendez awards extra credit on quizzes to his students with quiz grades that exceed the class mean. Given that 107 students take the same quiz, what is the largest number of students who can be awarded extra credit?\nA: ",
+        "response": "Since the mean is the average of all the quiz grades, at least one student's grade must be less than or equal to the mean. Therefore, the largest number of students who can be awarded extra credit is 106."
+    },
+    {
+        "id": 2,
+        "questions": [
+            {
+                "question": "Find the point in the plane $3x - 4y + 5z = 30$ that is closest to the point $(1,2,3).$",
+                "answer": ""
+            }
+        ],
+        "prompt": "Answer the following question.\nQ: Find the point in the plane $3x - 4y + 5z = 30$ that is closest to the point $(1,2,3).$\nA: ",
+        "response": "To find the point in the plane that is closest to the given point, we need to find the line passing through the given point that is perpendicular to the plane. The direction vector of this line is the normal vector of the plane, which is (3, -4, 5).\n\nThe parametric equation of the line is:\nx = 1 + 3t\ny = 2 - 4t\nz = 3 + 5t\n\nSince the line is perpendicular to the plane, it intersects the plane at the point that is closest to the given point. To find this point, we substitute the parametric equation of the line into the equation of the plane:\n\n3(1 + 3t) - 4(2 - 4t) + 5(3 + 5t) = 30\n\nSimplifying the equation, we get:\n3 + 9t - 8 + 16t + 15 + 25t = 30\n50t = 20\nt = 2/5\n\nNow, we substitute t = 2/5 into the parametric equation of the line to find the point of intersection:\nx = 1 + 3(2/5) = 1 + 6/5 = 11/5\ny = 2 - 4(2/5) = 2 - 8/5 = 2/5\nz = 3 + 5(2/5) = 3 + 2 = 5\n\nTherefore, the point in the plane that is closest to the point (1, 2, 3) is (11/5, 2/5, 5)."
+    },
+    {
+        "id": 3,
+        "questions": [
+            {
+                "question": "Find the point on the line\n\\[y = -3x + 5\\]that is closest to the point $(-4,-2).$",
+                "answer": ""
+            }
+        ],
+        "prompt": "Answer the following question.\nQ: Find the point on the line\n\\[y = -3x + 5\\]that is closest to the point $(-4,-2).$\nA: ",
+        "response": "To find the point on the line y = -3x + 5 that is closest to the point (-4,-2), we need to find the line perpendicular to the given line that passes through the point (-4,-2).\n\nThe slope of the given line is -3, so the slope of the perpendicular line is 1/3 (since the product of the slopes of perpendicular lines is -1).\n\nThe equation of the perpendicular line passing through (-4,-2) is:\ny + 2 = (1/3)(x + 4)\n\nNow, we need to find the intersection point of this line and the given line. We can do this by solving the system of equations:\ny = -3x + 5\ny + 2 = (1/3)(x + 4)\n\nSolving for x and y, we get:\nx = 1\ny = 2\n\nSo, the point on the line y = -3x + 5 that is closest to the point (-4,-2) is (1,2)."
+    },
+    {
+        "id": 4,
+        "questions": [
+            {
+                "question": "Find the point in the $xz$-plane that is equidistant from the points $(1,-1,0),$ $(2,1,2),$ and $(3,2,-1).$",
+                "answer": ""
+            }
+        ],
+        "prompt": "Answer the following question.\nQ: Find the point in the $xz$-plane that is equidistant from the points $(1,-1,0),$ $(2,1,2),$ and $(3,2,-1).$\nA: ",
+        "response": "To find the point in the $xz$-plane that is equidistant from the given points, we'll call the point $(x,0,z)$ since it lies in the $xz$-plane. \n\nWe'll use the distance formula to set up equations based on the fact that the distances from $(x,0,z)$ to each of the given points are equal.\n\nThe distance $d_1$ from $(x,0,z)$ to $(1,-1,0)$ is:\n\\[d_1 = \\sqrt{(x-1)^2 + (0-(-1))^2 + (z-0)^2} = \\sqrt{(x-1)^2 + 1 + z^2}\\]\n\nThe distance $d_2$ from $(x,0,z)$ to $(2,1,2)$ is:\n\\[d_2 = \\sqrt{(x-2)^2 + (0-1)^2 + (z-2)^2} = \\sqrt{(x-2)^2 + 1 + (z-2)^2}\\]\n\nThe distance $d_3$ from $(x,0,z)$ to $(3,2,-1)$ is:\n\\[d_3 = \\sqrt{(x-3)^2 + (0-2)^2 + (z-(-1))^2} = \\sqrt{(x-3)^2 + 4 + (z+1)^2}\\]\n\nSince the distances are equal, we can set up the following equations:\n\\[d_1 = d_2\\]\n\\[d_1 = d_3\\]\n\nSquaring both sides of the equations to eliminate the square roots and expanding, we get:\n\\[(x-1)^2 + 1 + z^2 = (x-2)^2 + 1 + (z-2)^2\\]\n\\[(x-1)^2 + 1 + z^2 = (x-3)^2 + 4 + (z+1)^2\\]\n\nSimplifying the equations:\n\\[x^2 - 2x + 1 + 1 + z^2 = x^2 - 4x + 4 + 1 + z^2 - 4z + 4\\]\n\\[x^2 - 2x + 1 + 1 + z^2 = x^2 - 6x + 9 + 4 + z^2 + 2z + 1\\]\n\nCancelinging"
+    }
+]

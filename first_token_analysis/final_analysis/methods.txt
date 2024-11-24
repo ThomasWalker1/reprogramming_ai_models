@@ -1,0 +1,16 @@
+e_s_steering
+    [Feature("The assistant's turn to speak"), Feature("The assistant is starting a step-by-step explanation")]
+    pin
+    0.6
+m_e_steering
+    [Feature("Mathematical variables and numerical values in formal contexts"), Feature("The assistant's turn to speak")]
+    pin
+    0.6
+m_s_e_steering
+    [Feature("Mathematical variables and numerical values in formal contexts"), Feature("The assistant is starting a step-by-step explanation"), Feature("The assistant's turn to speak")]
+    pin
+    0.6
+m_s_steering
+    [Feature("Mathematical variables and numerical values in formal contexts"), Feature("The assistant is starting a step-by-step explanation")]
+    pin
+    0.6

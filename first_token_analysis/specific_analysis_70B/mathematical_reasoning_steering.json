@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "questions": [
+            {
+                "question": "Mr. Mendez awards extra credit on quizzes to his students with quiz grades that exceed the class mean. Given that 107 students take the same quiz, what is the largest number of students who can be awarded extra credit?",
+                "answer": ""
+            }
+        ],
+        "prompt": "Answer the following question.\nQ: Mr. Mendez awards extra credit on quizzes to his students with quiz grades that exceed the class mean. Given that 107 students take the same quiz, what is the largest number of students who can be awarded extra credit?\nA: ",
+        "response": "The largest number of students who can be awarded extra credit is 106."
+    },
+    {
+        "id": 2,
+        "questions": [
+            {
+                "question": "Find the point in the plane $3x - 4y + 5z = 30$ that is closest to the point $(1,2,3).$",
+                "answer": ""
+            }
+        ],
+        "prompt": "Answer the following question.\nQ: Find the point in the plane $3x - 4y + 5z = 30$ that is closest to the point $(1,2,3).$\nA: ",
+        "response": "To find the point in the plane 3x - 4y + 5z = 30 that is closest to the point (1,2,3), we need to find the intersection of the plane and the line passing through the point (1,2,3).\n\nThe equation of the line is given by:\n\nx = 1 + t\ny = 2 + t\nz = 3 + t\n\nSubstituting these values into the equation of the plane, we get:\n\n3(1 + t) - 4(2 + t) + 5(3 + t) = 30\n\nSimplifying and solving for t, we get:\n\nt = 5\n\nTherefore, the point in the plane that is closest to the point (1,2,3) is:\n\n(1 + 5, 2 + 5, 3 + 5)\n= (6, 7, 8)\n\nSo, the final answer is (6, 7, 8)."
+    },
+    {
+        "id": 3,
+        "questions": [
+            {
+                "question": "Find the point on the line\n\\[y = -3x + 5\\]that is closest to the point $(-4,-2).$",
+                "answer": ""
+            }
+        ],
+        "prompt": "Answer the following question.\nQ: Find the point on the line\n\\[y = -3x + 5\\]that is closest to the point $(-4,-2).$\nA: ",
+        "response": "To find the point on the line y = -3x + 5 that is closest to the point (-4,-2), we need to find the value of x that minimizes the distance between the two points.\n\nThe distance between two points (x1, y1) and (x2, y2) is given by the formula:\n\nd = sqrt((x2 - x1)^2 + (y2 - y1)^2)\n\nIn this case, we have:\n\nd = sqrt((-4 - x)^2 + (-2 - y)^2)\n\nSubstituting y = -3x + 5, we get:\n\nd = sqrt((-4 - x)^2 + (-2 - (-3x + 5))^2)\n\nSimplifying and solving for x, we get:\n\nx = -1\n\nSubstituting x = -1 into the equation y = -3x + 5, we get:\n\ny = -3(-1) + 5\n= 2\n\nTherefore, the point on the line y = -3x + 5 that is closest to the point (-4,-2) is (-1, 2)."
+    },
+    {
+        "id": 4,
+        "questions": [
+            {
+                "question": "Find the point in the $xz$-plane that is equidistant from the points $(1,-1,0),$ $(2,1,2),$ and $(3,2,-1).$",
+                "answer": ""
+            }
+        ],
+        "prompt": "Answer the following question.\nQ: Find the point in the $xz$-plane that is equidistant from the points $(1,-1,0),$ $(2,1,2),$ and $(3,2,-1).$\nA: ",
+        "response": "To find the point in the $xz$-plane that is equidistant from the given points, we can use the distance formula. Let the point be $(x,y,z).$\n\nThe distance from $(1,-1,0)$ to $(x,y,z)$ is $\\sqrt{(x-1)^2+(y+1)^2+z^2}.$\n\nThe distance from $(2,1,2)$ to $(x,y,z)$ is $\\sqrt{(x-2)^2+(y-1)^2+(z-2)^2}.$\n\nThe distance from $(3,2,-1)$ to $(x,y,z)$ is $\\sqrt{(x-3)^2+(y-2)^2+(z+1)^2}.$\n\nSince the distances are equal, we can set up the equations:\n\n$\\sqrt{(x-1)^2+(y+1)^2+z^2} = \\sqrt{(x-2)^2+(y-1)^2+(z-2)^2} = \\sqrt{(x-3)^2+(y-2)^2+(z+1)^2}.$\n\nSolving the equations, we get:\n\n$(x,y,z) = (2,1,1).$\n\nTherefore, the point in the $xz$-plane that is equidistant from the given points is $(2,1,1).$"
+    }
+]

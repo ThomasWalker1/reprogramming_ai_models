@@ -1,0 +1,377 @@
+1
+  chain-of-thought features at Token("Let")
+    (28805, Feature("The model is considering or preparing to take an action")) 4.25
+    (22207, Feature("Introduction of variables or assumptions in mathematical reasoning")) 3.3125
+    (16397, Feature("The model initiating step-by-step explanation")) 1.109375
+    (64369, Feature("The model is beginning a step-by-step explanation")) 0.86328125
+    (42860, Feature("The model's turn to speak, especially with enthusiasm")) 0.64453125
+    (40566, Feature("The model's turn to speak in a conversation")) 0.62890625
+    (3168, Feature("The model is eager to begin an activity with the user")) 0.416015625
+    (13898, Feature("The model's turn to speak in non-English conversations")) 0.33984375
+  direct features at Token("I")
+    (36354, Feature("The model needs to express uncertainty or limitations")) 2.90625
+    (2531, Feature("The assistant needs to explain its limitations or refuse inappropriate requests")) 1.1171875
+    (24215, Feature("The model expresses uncertainty or needs clarification")) 0.90625
+    (9430, Feature("The model initiating correct answer")) 0.53125
+    (16842, Feature("The model is about to provide the correct answer in a quiz or multiple choice context")) 0.419921875
+    (27740, Feature("The model needs clarification")) 0.38671875
+    (13365, Feature("The model's self-reference in first person")) 0.34765625
+    (21128, Feature("The model maintains its identity and limitations")) 0.2353515625
+2
+  chain-of-thought features at Token("Let")
+    (22207, Feature("Introduction of variables or assumptions in mathematical reasoning")) 3.71875
+    (28805, Feature("The model is considering or preparing to take an action")) 3.703125
+    (64369, Feature("The model is beginning a step-by-step explanation")) 0.96484375
+    (16397, Feature("The model initiating step-by-step explanation")) 0.68359375
+    (42860, Feature("The model's turn to speak, especially with enthusiasm")) 0.52734375
+    (20824, Feature("The model is preparing to provide a detailed explanation or answer")) 0.44140625
+    (25643, Feature("Polite requests for assistance or offers to help")) 0.30078125
+    (61735, Feature("Structured conversational turn-taking by the model in a roleplay or game format")) 0.279296875
+  direct features at Token("Since")
+    (44548, Feature("Logical reasoning transitions using 'Since'")) 3.984375
+    (23748, Feature("Conditional statements in Spanish conversations")) 0.734375
+    (14698, Feature("Sentence flow and clause connectors")) 0.515625
+    (14869, Feature("Mathematical word problems involving counting animals or body parts")) 0.46484375
+    (61975, Feature("Mathematical reasoning in word problems")) 0.318359375
+    (26379, Feature("The model initiating advice or suggestions")) 0.30078125
+    (3517, Feature("Hedging or expressing uncertainty")) 0.265625
+    (710, Feature("The assistant is beginning step-by-step instructions")) 0.205078125
+3
+  chain-of-thought features at Token("Let")
+    (28805, Feature("The model is considering or preparing to take an action")) 4.125
+    (22207, Feature("Introduction of variables or assumptions in mathematical reasoning")) 2.53125
+    (64369, Feature("The model is beginning a step-by-step explanation")) 1.546875
+    (16397, Feature("The model initiating step-by-step explanation")) 1.1484375
+    (25657, Feature("F# 'let' keyword for variable and function declarations")) 0.62109375
+    (42860, Feature("The model's turn to speak, especially with enthusiasm")) 0.56640625
+    (30203, Feature("The model referring to itself in first person")) 0.486328125
+    (9430, Feature("The model initiating correct answer")) 0.466796875
+  direct features at Token("Yes")
+    (32980, Feature("The model's affirmative response initiation")) 3.984375
+    (54864, Feature("The model affirms its capabilities or knowledge")) 2.53125
+    (6395, Feature("Affirmative response detection")) 1.671875
+    (43020, Feature("Expressions of affirmation or agreement")) 0.88671875
+    (32190, Feature("Affirmative response or agreement in constrained dialogue")) 0.6796875
+    (40809, Feature("Relative clauses and conjunctions using 'that'")) 0.494140625
+    (48694, Feature("The model rejects factual consistency of a summary")) 0.37890625
+    (56874, Feature("Filler words and hesitation markers in informal speech")) 0.357421875
+4
+  chain-of-thought features at Token("Let")
+    (28805, Feature("The model is considering or preparing to take an action")) 4.5
+    (22207, Feature("Introduction of variables or assumptions in mathematical reasoning")) 3.40625
+    (16397, Feature("The model initiating step-by-step explanation")) 0.96484375
+    (64369, Feature("The model is beginning a step-by-step explanation")) 0.859375
+    (42860, Feature("The model's turn to speak, especially with enthusiasm")) 0.5546875
+    (9430, Feature("The model initiating correct answer")) 0.267578125
+    (40174, Feature("The model needs to calculate or analyze something")) 0.234375
+    (28278, Feature("Expressions of uncertainty or anticipation about future outcomes")) 0.12255859375
+  direct features at Token("Let")
+    (22207, Feature("Introduction of variables or assumptions in mathematical reasoning")) 4.4375
+    (28805, Feature("The model is considering or preparing to take an action")) 3.984375
+    (64369, Feature("The model is beginning a step-by-step explanation")) 0.68359375
+    (42860, Feature("The model's turn to speak, especially with enthusiasm")) 0.62890625
+    (16397, Feature("The model initiating step-by-step explanation")) 0.546875
+    (16138, Feature("The model's turn to speak in Spanish conversations")) 0.369140625
+    (16749, Feature("The model should complete a code snippet for a financial calculator")) 0.30859375
+    (12237, Feature("The model is about to perform a step-by-step calculation or explanation")) 0.2490234375
+5
+  chain-of-thought features at Token("Let")
+    (28805, Feature("The model is considering or preparing to take an action")) 4.46875
+    (64369, Feature("The model is beginning a step-by-step explanation")) 1.5703125
+    (22207, Feature("Introduction of variables or assumptions in mathematical reasoning")) 1.2578125
+    (47856, Feature("The model suggests continuing or transitioning an activity")) 1.1953125
+    (16397, Feature("The model initiating step-by-step explanation")) 1.140625
+    (25657, Feature("F# 'let' keyword for variable and function declarations")) 0.94921875
+    (42860, Feature("The model's turn to speak, especially with enthusiasm")) 0.67578125
+    (3168, Feature("The model is eager to begin an activity with the user")) 0.50390625
+  direct features at Token("The")
+    (23409, Feature("The model begins an explanatory statement")) 1.5625
+    (17073, Feature("Definite article 'the' introducing new information or topics")) 1.4296875
+    (61091, Feature("Superlative facts and record-breaking characteristics")) 1.3828125
+    (20629, Feature("Desert and arid landscape imagery")) 1.203125
+    (16440, Feature("Providing numerical facts and measurements")) 1.0625
+    (19755, Feature("Numbered list item beginnings")) 0.8984375
+    (55672, Feature("Casual sharing of personal experiences and recommendations")) 0.69140625
+    (28301, Feature("Geographical categorization of countries into continents or regions")) 0.60546875
+6
+  chain-of-thought features at Token("The")
+    (10086, Feature("The definite article 'the' in English")) 1.4375
+    (20116, Feature("The model begins explanation with 'The'")) 1.171875
+    (3238, Feature("Sentence-initial definite article 'The'")) 0.8203125
+    (65203, Feature("Using historical context for current analysis")) 0.8125
+    (53249, Feature("Definite article 'the' indicating specificity or known reference")) 0.63671875
+    (24199, Feature("Context-specific reference tracking using definite articles")) 0.6328125
+    (62019, Feature("Parts or components of larger objects or concepts")) 0.58984375
+    (9430, Feature("The model initiating correct answer")) 0.482421875
+  direct features at Token("The")
+    (53249, Feature("Definite article 'the' indicating specificity or known reference")) 1.703125
+    (20116, Feature("The model begins explanation with 'The'")) 1.4375
+    (65203, Feature("Using historical context for current analysis")) 1.15625
+    (54055, Feature("The model is providing a detailed explanation or qualification")) 1.0234375
+    (9430, Feature("The model initiating correct answer")) 0.9921875
+    (52024, Feature("The model is providing a code example with output")) 0.9765625
+    (10086, Feature("The definite article 'the' in English")) 0.6328125
+    (9762, Feature("The model is providing options or intermediate steps")) 0.53515625
+7
+  chain-of-thought features at Token("Since")
+    (44548, Feature("Logical reasoning transitions using 'Since'")) 3.859375
+    (3517, Feature("Hedging or expressing uncertainty")) 0.416015625
+    (63542, Feature("Considering hypothetical scenarios and interpretations")) 0.376953125
+    (557, Feature("Tracking actor entrances and presence in logic puzzles")) 0.33984375
+    (26379, Feature("The model initiating advice or suggestions")) 0.25390625
+    (5188, Feature("The model should output quoted text or speech")) 0.2080078125
+    (47723, Feature("The user has a question about an object's current location or state")) 0.203125
+    (25724, Feature("The model needs clarification")) 0.19921875
+  direct features at Token("The")
+    (53249, Feature("Definite article 'the' indicating specificity or known reference")) 1.8828125
+    (20116, Feature("The model begins explanation with 'The'")) 1.71875
+    (9430, Feature("The model initiating correct answer")) 1.171875
+    (54055, Feature("The model is providing a detailed explanation or qualification")) 1.046875
+    (23409, Feature("The model begins an explanatory statement")) 0.859375
+    (47723, Feature("The user has a question about an object's current location or state")) 0.81640625
+    (9762, Feature("The model is providing options or intermediate steps")) 0.7265625
+    (3238, Feature("Sentence-initial definite article 'The'")) 0.59765625
+8
+  chain-of-thought features at Token("Since")
+    (44548, Feature("Logical reasoning transitions using 'Since'")) 3.71875
+    (43719, Feature("Information intended for a limited audience")) 0.59375
+    (63542, Feature("Considering hypothetical scenarios and interpretations")) 0.470703125
+    (557, Feature("Tracking actor entrances and presence in logic puzzles")) 0.4140625
+    (7545, Feature("The model is providing detailed explanations or instructions")) 0.375
+    (9226, Feature("The model is providing explanations or clarifications, often for unusual or nonsensical queries")) 0.232421875
+    (5486, Feature("AI model's non-specific responses about its origins and identity")) 0.2177734375
+    (1885, Feature("Definite articles and determiners in English")) 0.2158203125
+  direct features at Token("The")
+    (20116, Feature("The model begins explanation with 'The'")) 1.8671875
+    (53249, Feature("Definite article 'the' indicating specificity or known reference")) 1.8125
+    (65203, Feature("Using historical context for current analysis")) 1.2578125
+    (52024, Feature("The model is providing a code example with output")) 1.2421875
+    (9430, Feature("The model initiating correct answer")) 1.0859375
+    (54055, Feature("The model is providing a detailed explanation or qualification")) 0.7734375
+    (9762, Feature("The model is providing options or intermediate steps")) 0.4765625
+    (3238, Feature("Sentence-initial definite article 'The'")) 0.4453125
+9
+  chain-of-thought features at Token("A")
+    (5841, Feature("Sentence/description starter token, especially capitalized 'A'")) 1.859375
+    (5588, Feature("End of header token before model's response")) 0.5078125
+    (48987, Feature("Conjunctions and connective words, especially 'and'")) 0.482421875
+    (16397, Feature("The model initiating step-by-step explanation")) 0.412109375
+    (9430, Feature("The model initiating correct answer")) 0.40625
+    (55377, Feature("Pronoun 'She' or 'He' at start of sentence or clause")) 0.353515625
+    (20824, Feature("The model is preparing to provide a detailed explanation or answer")) 0.34375
+    (42860, Feature("The model's turn to speak, especially with enthusiasm")) 0.330078125
+  direct features at Token("Since")
+    (44548, Feature("Logical reasoning transitions using 'Since'")) 4.03125
+    (25724, Feature("The model needs clarification")) 0.546875
+    (47657, Feature("Relational prepositions and conjunctions in analytical explanations")) 0.53515625
+    (6618, Feature("Describing actions in roleplaying or interactive narratives")) 0.337890625
+    (60503, Feature("Information retrieval and provision in computer systems")) 0.32421875
+    (26379, Feature("The model initiating advice or suggestions")) 0.29296875
+    (36959, Feature("Aggregation or combination of multiple elements, especially in data and models")) 0.27734375
+    (557, Feature("Tracking actor entrances and presence in logic puzzles")) 0.267578125
+10
+  chain-of-thought features at Token("Easy")
+    (22030, Feature("Simplicity or ease in instructions and tasks")) 3.359375
+    (7273, Feature("Ease of use or understanding")) 2.328125
+    (23208, Feature("Sarcastic optimism or insensitive positivity")) 1.7734375
+    (42860, Feature("The model's turn to speak, especially with enthusiasm")) 1.375
+    (1956, Feature("The assistant's turn to speak in a conversation")) 1.34375
+    (33426, Feature("Multiple choice quiz question formatting and creation")) 0.5703125
+    (19863, Feature("Anticipation and excitement for social events or positive outcomes")) 0.53515625
+    (9430, Feature("The model initiating correct answer")) 0.486328125
+  direct features at Token("The")
+    (53249, Feature("Definite article 'the' indicating specificity or known reference")) 2.46875
+    (20116, Feature("The model begins explanation with 'The'")) 1.875
+    (9430, Feature("The model initiating correct answer")) 0.87109375
+    (23409, Feature("The model begins an explanatory statement")) 0.6796875
+    (10086, Feature("The definite article 'the' in English")) 0.65625
+    (20824, Feature("The model is preparing to provide a detailed explanation or answer")) 0.609375
+    (44776, Feature("The model is solving a math problem step-by-step")) 0.59375
+    (29148, Feature("The model needs clarification or correction")) 0.2412109375
+11
+  chain-of-thought features at Token("Jason")
+    (36539, Feature("Mathematical problem-solving steps and key elements in word problems")) 3.0
+    (59510, Feature("Numerical values in math problems or quantitative descriptions")) 1.34375
+    (43974, Feature("Numbered placeholder names (e.g. NAME_1, NAME_2)")) 1.28125
+    (18498, Feature("Subject pronouns and references in math problems and possession scenarios")) 1.125
+    (14187, Feature("Placeholder name detection (e.g. NAME_1, NAME_2)")) 0.88671875
+    (49352, Feature("The user is asking a question or seeking clarification")) 0.81640625
+    (44776, Feature("The model is solving a math problem step-by-step")) 0.72265625
+    (58280, Feature("Character name repetition in narratives or dialogues")) 0.62109375
+  direct features at Token("Let")
+    (28805, Feature("The model is considering or preparing to take an action")) 3.765625
+    (22207, Feature("Introduction of variables or assumptions in mathematical reasoning")) 3.734375
+    (64369, Feature("The model is beginning a step-by-step explanation")) 0.93359375
+    (42860, Feature("The model's turn to speak, especially with enthusiasm")) 0.75
+    (20824, Feature("The model is preparing to provide a detailed explanation or answer")) 0.74609375
+    (15306, Feature("Key phrase activation within model's multilingual responses")) 0.51953125
+    (15325, Feature("The model's turn to speak in non-English conversations")) 0.42578125
+    (9430, Feature("The model initiating correct answer")) 0.40234375
+12
+  chain-of-thought features at Token("Let")
+    (28805, Feature("The model is considering or preparing to take an action")) 4.15625
+    (22207, Feature("Introduction of variables or assumptions in mathematical reasoning")) 3.3125
+    (64369, Feature("The model is beginning a step-by-step explanation")) 1.0703125
+    (16397, Feature("The model initiating step-by-step explanation")) 1.0390625
+    (42860, Feature("The model's turn to speak, especially with enthusiasm")) 0.89453125
+    (3168, Feature("The model is eager to begin an activity with the user")) 0.546875
+    (35426, Feature("The model needs to correct a mistake in its previous response")) 0.203125
+    (20824, Feature("The model is preparing to provide a detailed explanation or answer")) 0.1748046875
+  direct features at Token("Let")
+    (28805, Feature("The model is considering or preparing to take an action")) 3.796875
+    (22207, Feature("Introduction of variables or assumptions in mathematical reasoning")) 3.5
+    (64369, Feature("The model is beginning a step-by-step explanation")) 0.8984375
+    (42860, Feature("The model's turn to speak, especially with enthusiasm")) 0.85546875
+    (16397, Feature("The model initiating step-by-step explanation")) 0.7578125
+    (20824, Feature("The model is preparing to provide a detailed explanation or answer")) 0.357421875
+    (9430, Feature("The model initiating correct answer")) 0.291015625
+    (35426, Feature("The model needs to correct a mistake in its previous response")) 0.234375
+13
+  chain-of-thought features at Token("Ol")
+    (21119, Feature("HTML ordered list tag or Portuguese words starting with 'ol'")) 3.875
+    (48396, Feature("Russian names as story subjects")) 1.5078125
+    (41561, Feature("Capitalized words at the start of sentences")) 1.3671875
+    (49410, Feature("Capitalized first letter of important proper nouns at sentence/paragraph start")) 1.09375
+    (37264, Feature("Informal Entertainment Contexts and Terminology")) 0.9609375
+    (47830, Feature("Beginnings of uncommon or international female names")) 0.75390625
+    (42068, Feature("Object-oriented programming constructs in scripting languages")) 0.53515625
+    (48707, Feature("The model is asking for clarification or details about a subject")) 0.498046875
+  direct features at Token("Let")
+    (28805, Feature("The model is considering or preparing to take an action")) 3.96875
+    (22207, Feature("Introduction of variables or assumptions in mathematical reasoning")) 3.03125
+    (64369, Feature("The model is beginning a step-by-step explanation")) 0.8125
+    (42860, Feature("The model's turn to speak, especially with enthusiasm")) 0.79296875
+    (16397, Feature("The model initiating step-by-step explanation")) 0.625
+    (9430, Feature("The model initiating correct answer")) 0.36328125
+    (20824, Feature("The model is preparing to provide a detailed explanation or answer")) 0.345703125
+    (59213, Feature("The model's turn to speak")) 0.33203125
+14
+  chain-of-thought features at Token("I")
+    (36354, Feature("The model needs to express uncertainty or limitations")) 2.3125
+    (24215, Feature("The model expresses uncertainty or needs clarification")) 1.5625
+    (2531, Feature("The assistant needs to explain its limitations or refuse inappropriate requests")) 1.3984375
+    (9430, Feature("The model initiating correct answer")) 0.96484375
+    (21128, Feature("The model maintains its identity and limitations")) 0.70703125
+    (1162, Feature("The assistant expressing willingness to help or engage in a task")) 0.462890625
+    (27740, Feature("The model needs clarification")) 0.416015625
+    (21626, Feature("The model's turn to respond in a conversation")) 0.373046875
+  direct features at Token("I")
+    (36354, Feature("The model needs to express uncertainty or limitations")) 1.8359375
+    (24215, Feature("The model expresses uncertainty or needs clarification")) 1.796875
+    (2531, Feature("The assistant needs to explain its limitations or refuse inappropriate requests")) 1.453125
+    (21128, Feature("The model maintains its identity and limitations")) 1.2265625
+    (9430, Feature("The model initiating correct answer")) 1.0
+    (30819, Feature("Collective Perceptions and Societal Norms")) 0.4375
+    (27740, Feature("The model needs clarification")) 0.43359375
+    (21626, Feature("The model's turn to respond in a conversation")) 0.4296875
+15
+  chain-of-thought features at Token("I")
+    (36354, Feature("The model needs to express uncertainty or limitations")) 1.9765625
+    (24215, Feature("The model expresses uncertainty or needs clarification")) 1.9453125
+    (2531, Feature("The assistant needs to explain its limitations or refuse inappropriate requests")) 1.2890625
+    (9430, Feature("The model initiating correct answer")) 1.046875
+    (21128, Feature("The model maintains its identity and limitations")) 0.66796875
+    (27740, Feature("The model needs clarification")) 0.5859375
+    (30819, Feature("Collective Perceptions and Societal Norms")) 0.5234375
+    (60050, Feature("Providing linguistic explanations or breakdowns")) 0.3984375
+  direct features at Token("I")
+    (24215, Feature("The model expresses uncertainty or needs clarification")) 2.140625
+    (2531, Feature("The assistant needs to explain its limitations or refuse inappropriate requests")) 1.4375
+    (36354, Feature("The model needs to express uncertainty or limitations")) 1.4296875
+    (21128, Feature("The model maintains its identity and limitations")) 1.1484375
+    (9430, Feature("The model initiating correct answer")) 1.140625
+    (30819, Feature("Collective Perceptions and Societal Norms")) 0.7734375
+    (21626, Feature("The model's turn to respond in a conversation")) 0.41796875
+    (27740, Feature("The model needs clarification")) 0.361328125
+16
+  chain-of-thought features at Token("I")
+    (36354, Feature("The model needs to express uncertainty or limitations")) 2.484375
+    (24215, Feature("The model expresses uncertainty or needs clarification")) 1.8125
+    (27740, Feature("The model needs clarification")) 1.25
+    (2531, Feature("The assistant needs to explain its limitations or refuse inappropriate requests")) 1.2265625
+    (9430, Feature("The model initiating correct answer")) 0.95703125
+    (5187, Feature("The model expresses strong agreement")) 0.435546875
+    (21128, Feature("The model maintains its identity and limitations")) 0.4296875
+    (30819, Feature("Collective Perceptions and Societal Norms")) 0.419921875
+  direct features at Token("I")
+    (24215, Feature("The model expresses uncertainty or needs clarification")) 2.15625
+    (36354, Feature("The model needs to express uncertainty or limitations")) 1.8203125
+    (2531, Feature("The assistant needs to explain its limitations or refuse inappropriate requests")) 1.5078125
+    (9430, Feature("The model initiating correct answer")) 1.0546875
+    (21128, Feature("The model maintains its identity and limitations")) 0.9609375
+    (30819, Feature("Collective Perceptions and Societal Norms")) 0.90234375
+    (27740, Feature("The model needs clarification")) 0.88671875
+    (57149, Feature("The model needs to classify or categorize something")) 0.291015625
+17
+  chain-of-thought features at Token("I")
+    (36354, Feature("The model needs to express uncertainty or limitations")) 2.703125
+    (24215, Feature("The model expresses uncertainty or needs clarification")) 1.2109375
+    (2531, Feature("The assistant needs to explain its limitations or refuse inappropriate requests")) 1.078125
+    (9430, Feature("The model initiating correct answer")) 0.91015625
+    (5187, Feature("The model expresses strong agreement")) 0.8125
+    (27740, Feature("The model needs clarification")) 0.71484375
+    (21128, Feature("The model maintains its identity and limitations")) 0.52734375
+    (1162, Feature("The assistant expressing willingness to help or engage in a task")) 0.48046875
+  direct features at Token("The")
+    (53249, Feature("Definite article 'the' indicating specificity or known reference")) 2.03125
+    (23409, Feature("The model begins an explanatory statement")) 1.453125
+    (9430, Feature("The model initiating correct answer")) 1.234375
+    (20116, Feature("The model begins explanation with 'The'")) 1.1015625
+    (9762, Feature("The model is providing options or intermediate steps")) 1.0
+    (14744, Feature("The definite article 'the' in analytical or summarizing contexts")) 0.47265625
+    (3238, Feature("Sentence-initial definite article 'The'")) 0.458984375
+    (37812, Feature("The model is inferring intent or meaning")) 0.27734375
+18
+  chain-of-thought features at Token("I")
+    (36354, Feature("The model needs to express uncertainty or limitations")) 3.09375
+    (2531, Feature("The assistant needs to explain its limitations or refuse inappropriate requests")) 1.15625
+    (28459, Feature("The model needs clarification due to incomplete user input")) 1.109375
+    (1268, Feature("The assistant needs clarification")) 1.0390625
+    (27740, Feature("The model needs clarification")) 0.7734375
+    (42125, Feature("The model needs clarification or expresses uncertainty")) 0.68359375
+    (1162, Feature("The assistant expressing willingness to help or engage in a task")) 0.625
+  direct features at Token("I")
+    (36354, Feature("The model needs to express uncertainty or limitations")) 3.359375
+    (2531, Feature("The assistant needs to explain its limitations or refuse inappropriate requests")) 0.98828125
+    (1268, Feature("The assistant needs clarification")) 0.765625
+    (42125, Feature("The model needs clarification or expresses uncertainty")) 0.73828125
+    (60875, Feature("The model should complete a text or fill in a blank")) 0.59375
+    (28459, Feature("The model needs clarification due to incomplete user input")) 0.56640625
+    (27740, Feature("The model needs clarification")) 0.5546875
+    (1162, Feature("The assistant expressing willingness to help or engage in a task")) 0.53125
+19
+  chain-of-thought features at Token("I")
+    (36354, Feature("The model needs to express uncertainty or limitations")) 3.1875
+    (2531, Feature("The assistant needs to explain its limitations or refuse inappropriate requests")) 1.171875
+    (27740, Feature("The model needs clarification")) 0.890625
+    (1162, Feature("The assistant expressing willingness to help or engage in a task")) 0.79296875
+    (13365, Feature("The model's self-reference in first person")) 0.64453125
+    (1268, Feature("The assistant needs clarification")) 0.63671875
+    (28459, Feature("The model needs clarification due to incomplete user input")) 0.6328125
+    (60875, Feature("The model should complete a text or fill in a blank")) 0.5703125
+  direct features at Token("I")
+    (36354, Feature("The model needs to express uncertainty or limitations")) 2.96875
+    (2531, Feature("The assistant needs to explain its limitations or refuse inappropriate requests")) 1.0625
+    (24215, Feature("The model expresses uncertainty or needs clarification")) 0.765625
+    (16842, Feature("The model is about to provide the correct answer in a quiz or multiple choice context")) 0.65625
+    (27740, Feature("The model needs clarification")) 0.62109375
+    (9430, Feature("The model initiating correct answer")) 0.59765625
+    (21128, Feature("The model maintains its identity and limitations")) 0.55859375
+    (42125, Feature("The model needs clarification or expresses uncertainty")) 0.55078125
+20
+  chain-of-thought features at Token("I")
+    (36354, Feature("The model needs to express uncertainty or limitations")) 2.984375
+    (2531, Feature("The assistant needs to explain its limitations or refuse inappropriate requests")) 1.0390625
+    (1268, Feature("The assistant needs clarification")) 0.8515625
+    (1162, Feature("The assistant expressing willingness to help or engage in a task")) 0.84375
+    (28459, Feature("The model needs clarification due to incomplete user input")) 0.7421875
+    (60875, Feature("The model should complete a text or fill in a blank")) 0.703125
+    (42125, Feature("The model needs clarification or expresses uncertainty")) 0.55859375
+  direct features at Token("I")
+    (36354, Feature("The model needs to express uncertainty or limitations")) 3.1875
+    (2531, Feature("The assistant needs to explain its limitations or refuse inappropriate requests")) 0.9375
+    (27740, Feature("The model needs clarification")) 0.83203125
+    (1268, Feature("The assistant needs clarification")) 0.7578125
+    (60875, Feature("The model should complete a text or fill in a blank")) 0.6953125
+    (42125, Feature("The model needs clarification or expresses uncertainty")) 0.5703125
+    (28459, Feature("The model needs clarification due to incomplete user input")) 0.5390625

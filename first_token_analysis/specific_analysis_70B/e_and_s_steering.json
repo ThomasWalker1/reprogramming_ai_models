@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "questions": [
+            {
+                "question": "Mr. Mendez awards extra credit on quizzes to his students with quiz grades that exceed the class mean. Given that 107 students take the same quiz, what is the largest number of students who can be awarded extra credit?",
+                "answer": ""
+            }
+        ],
+        "prompt": "Answer the following question.\nQ: Mr. Mendez awards extra credit on quizzes to his students with quiz grades that exceed the class mean. Given that 107 students take the same quiz, what is the largest number of students who can be awarded extra credit?\nA: ",
+        "response": "Since the mean is the average of all the quiz grades, at least one student's grade must be less than or equal to the mean. Therefore, not all 107 students can exceed the mean.\n\nHowever, 106 students can exceed the mean if one student's grade is exactly equal to the mean, and the remaining 106 students have higher grades.\n\nSo, the largest number of students who can be awarded extra credit is 106."
+    },
+    {
+        "id": 2,
+        "questions": [
+            {
+                "question": "Find the point in the plane $3x - 4y + 5z = 30$ that is closest to the point $(1,2,3).$",
+                "answer": ""
+            }
+        ],
+        "prompt": "Answer the following question.\nQ: Find the point in the plane $3x - 4y + 5z = 30$ that is closest to the point $(1,2,3).$\nA: ",
+        "response": "To find the point in the plane that is closest to the given point, we need to find the line that is perpendicular to the plane and passes through the given point. The normal vector of the plane is (3, -4, 5).\n\nThe parametric equation of the line is:\nx = 1 + 3t\ny = 2 - 4t\nz = 3 + 5t\n\nNow, we need to find the point where this line intersects the plane. We substitute the parametric equation into the equation of the plane:\n3(1 + 3t) - 4(2 - 4t) + 5(3 + 5t) = 30\n\nSimplifying the equation, we get:\n3 + 9t - 8 + 16t + 15 + 25t = 30\n50t = 20\nt = 2/5\n\nNow, we substitute t = 2/5 into the parametric equation to find the point of intersection:\nx = 1 + 3(2/5) = 1 + 6/5 = 11/5\ny = 2 - 4(2/5) = 2 - 8/5 = 2/5\nz = 3 + 5(2/5) = 3 + 2 = 5\n\nSo, the point in the plane that is closest to the point (1,2,3) is (11/5, 2/5, 5)."
+    },
+    {
+        "id": 3,
+        "questions": [
+            {
+                "question": "Find the point on the line\n\\[y = -3x + 5\\]that is closest to the point $(-4,-2).$",
+                "answer": ""
+            }
+        ],
+        "prompt": "Answer the following question.\nQ: Find the point on the line\n\\[y = -3x + 5\\]that is closest to the point $(-4,-2).$\nA: ",
+        "response": "To find the point on the line y = -3x + 5 that is closest to the point (-4,-2), we need to find the line perpendicular to y = -3x + 5 that passes through (-4,-2).\n\nThe slope of y = -3x + 5 is -3, so the slope of the perpendicular line is 1/3 (the negative reciprocal of -3).\n\nThe equation of the perpendicular line is:\ny - (-2) = (1/3)(x - (-4))\ny + 2 = (1/3)(x + 4)\ny + 2 = (1/3)x + 4/3\ny = (1/3)x - 2/3\n\nNow, we need to find the intersection point of the two lines:\n-3x + 5 = (1/3)x - 2/3\n-3x - (1/3)x = -2/3 - 5\n-10/3x = -17/3\nx = 17/10\n\nNow, substitute x into one of the original equations to find y:\ny = -3x + 5\ny = -3(17/10) + 5\ny = -51/10 + 5\ny = -1/10\n\nSo, the point on the line y = -3x + 5 that is closest to the point (-4,-2) is (17/10, -1/10)."
+    },
+    {
+        "id": 4,
+        "questions": [
+            {
+                "question": "Find the point in the $xz$-plane that is equidistant from the points $(1,-1,0),$ $(2,1,2),$ and $(3,2,-1).$",
+                "answer": ""
+            }
+        ],
+        "prompt": "Answer the following question.\nQ: Find the point in the $xz$-plane that is equidistant from the points $(1,-1,0),$ $(2,1,2),$ and $(3,2,-1).$\nA: ",
+        "response": "To find the point in the $xz$-plane that is equidistant from the given points, we need to find the point that has the same distance from each of the given points.\n\nLet the point in the $xz$-plane be $(x,0,z)$. The distance from $(x,0,z)$ to $(1,-1,0)$ is:\n\n$$\\sqrt{(x-1)^2+(0-(-1))^2+(z-0)^2}=\\sqrt{(x-1)^2+1+z^2}$$\n\nThe distance from $(x,0,z)$ to $(2,1,2)$ is:\n\n$$\\sqrt{(x-2)^2+(0-1)^2+(z-2)^2}=\\sqrt{(x-2)^2+1+(z-2)^2}$$\n\nThe distance from $(x,0,z)$ to $(3,2,-1)$ is:\n\n$$\\sqrt{(x-3)^2+(0-2)^2+(z-(-1))^2}=\\sqrt{(x-3)^2+4+(z+1)^2}$$\n\nSince the point is equidistant from the three given points, we can set up the following equations:\n\n$$\\sqrt{(x-1)^2+1+z^2}=\\sqrt{(x-2)^2+1+(z-2)^2}$$\n\n$$\\sqrt{(x-1)^2+1+z^2}=\\sqrt{(x-3)^2+4+(z+1)^2}$$\n\nSquaring both sides of the first equation, we get:\n\n$$(x-1)^2+1+z^2=(x-2)^2+1+(z-2)^2$$\n\nExpanding and simplifying, we get:\n\n$$x^2-2x+1+1+z^2=x^2-4x+4+1+z^2-4z+4$$\n\nCombine like terms:\n\n$$-2x+2=-4x-4z+9$$\n\nAdd $4x$ to both sides:\n\n$$2x-2=-4z+9$$\n\nAdd $4z$ to both sides:\n\n$$2x+4z=7$$\n\nNow, let's square both sides of the second equation:\n\n$$(x-1)^2+1+z^2=(x-3)^2+4+(z+1)^2$$\n\nExpanding and and"
+    }
+]

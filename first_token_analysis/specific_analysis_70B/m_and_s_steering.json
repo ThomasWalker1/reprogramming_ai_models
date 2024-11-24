@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "questions": [
+            {
+                "question": "Mr. Mendez awards extra credit on quizzes to his students with quiz grades that exceed the class mean. Given that 107 students take the same quiz, what is the largest number of students who can be awarded extra credit?",
+                "answer": ""
+            }
+        ],
+        "prompt": "Answer the following question.\nQ: Mr. Mendez awards extra credit on quizzes to his students with quiz grades that exceed the class mean. Given that 107 students take the same quiz, what is the largest number of students who can be awarded extra credit?\nA: ",
+        "response": "Since at least one student's grade must be at or below the mean, the maximum number of students who can exceed the mean is 107 - 1 = 106."
+    },
+    {
+        "id": 2,
+        "questions": [
+            {
+                "question": "Find the point in the plane $3x - 4y + 5z = 30$ that is closest to the point $(1,2,3).$",
+                "answer": ""
+            }
+        ],
+        "prompt": "Answer the following question.\nQ: Find the point in the plane $3x - 4y + 5z = 30$ that is closest to the point $(1,2,3).$\nA: ",
+        "response": "To find the point in the plane 3x - 4y + 5z = 30 that is closest to the point (1,2,3), we need to find the line passing through (1,2,3) that is perpendicular to the plane.\n\nThe direction ratios of the line are the coefficients of x, y, and z in the equation of the plane, which are 3, -4, and 5.\n\nThe parametric equations of the line are:\nx = 1 + 3t\ny = 2 - 4t\nz = 3 + 5t\n\nSubstituting these values into the equation of the plane, we get:\n3(1 + 3t) - 4(2 - 4t) + 5(3 + 5t) = 30\n\nSimplifying, we get:\n3 + 9t - 8 + 16t + 15 + 25t = 30\n\nCombine like terms:\n50t = 20\n\nDivide by 50:\nt = 2/5\n\nNow, substitute t = 2/5 into the parametric equations:\nx = 1 + 3(2/5) = 1 + 6/5 = 11/5\ny = 2 - 4(2/5) = 2 - 8/5 = 2/5\nz = 3 + 5(2/5) = 3 + 2 = 5\n\nTherefore, the point in the plane 3x - 4y + 5z = 30 that is closest to the point (1,2,3) is (11/5, 2/5, 5)."
+    },
+    {
+        "id": 3,
+        "questions": [
+            {
+                "question": "Find the point on the line\n\\[y = -3x + 5\\]that is closest to the point $(-4,-2).$",
+                "answer": ""
+            }
+        ],
+        "prompt": "Answer the following question.\nQ: Find the point on the line\n\\[y = -3x + 5\\]that is closest to the point $(-4,-2).$\nA: ",
+        "response": "To find the point on the line y = -3x + 5 that is closest to the point (-4,-2), we need to find the line perpendicular to the given line that passes through the point (-4,-2).\n\nThe slope of the given line is -3, so the slope of the perpendicular line is 1/3 (since the product of the slopes is -1).\n\nThe equation of the perpendicular line is:\ny + 2 = (1/3)(x + 4)\n\nNow, we need to find the intersection point of the two lines. We can substitute the expression for y from the first line into the equation of the perpendicular line:\n-3x + 5 + 2 = (1/3)(x + 4)\n-3x + 7 = (1/3)x + 4/3\n\nNow, multiply both sides by 3 to eliminate the fraction:\n-9x + 21 = x + 4\n\nNow, add 9x to both sides:\n21 = 10x + 4\n\nNow, subtract 4 from both sides:\n17 = 10x\n\nNow, divide both sides by 10:\nx = 17/10\n\nNow, substitute the value of x into the equation of the given line to find the corresponding y-coordinate:\ny = -3(17/10) + 5\ny = -51/10 + 5\ny = -51/10 + 50/10\ny = -1/10\n\nSo, the point on the line y = -3x + 5 that is closest to the point (-4,-2) is (17/10, -1/10)."
+    },
+    {
+        "id": 4,
+        "questions": [
+            {
+                "question": "Find the point in the $xz$-plane that is equidistant from the points $(1,-1,0),$ $(2,1,2),$ and $(3,2,-1).$",
+                "answer": ""
+            }
+        ],
+        "prompt": "Answer the following question.\nQ: Find the point in the $xz$-plane that is equidistant from the points $(1,-1,0),$ $(2,1,2),$ and $(3,2,-1).$\nA: ",
+        "response": "To find the point in the $xz$-plane that is equidistant from the given points, we can set up the following equations:\n\nLet $(x,y,z)$ be the point in the $xz$-plane.\n\nUsing the distance formula, we have:\n\n$\\sqrt{(x-1)^2+(y+1)^2+z^2}=\\sqrt{(x-2)^2+(y-1)^2+(z-2)^2}$\n$\\sqrt{(x-1)^2+(y+1)^2+z^2}=\\sqrt{(x-3)^2+(y-2)^2+(z+1)^2}$\n\nSince the point is in the $xz$-plane, $y=0$.\n\nSubstituting $y=0$ into the equations, we get:\n\n$\\sqrt{(x-1)^2+1+z^2}=\\sqrt{(x-2)^2+1+(z-2)^2}$\n$\\sqrt{(x-1)^2+1+z^2}=\\sqrt{(x-3)^2+4+(z+1)^2}$\n\nSimplifying the equations, we get:\n\n$(x-1)^2+z^2=(x-2)^2+(z-2)^2$\n$(x-1)^2+z^2=(x-3)^2+(z+1)^2$\n\nExpanding and simplifying, we get:\n\n$x^2-2x+1+z^2=x^2-4x+4+z^2-4z+4$\n$x^2-2x+1+z^2=x^2-6x+9+z^2+2z+1$\n\nCombining like terms, we get:\n\n$2x-4z=3$\n$4x+2z=8$\n\nSolving the system of equations, we get:\n\n$x=2$\n$z=1$\n\nTherefore, the point in the $xz$-plane that is equidistant from the given points is $(2,0,1)$."
+    }
+]

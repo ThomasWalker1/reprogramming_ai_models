@@ -1,0 +1,192 @@
+[
+    {
+        "id": 1,
+        "questions": [
+            {
+                "question": "the banker ' s gain of a certain sum due 3 years hence at 10 % per annum is rs . 36 . what is the present worth ?",
+                "answer": "rs . 400"
+            },
+            {
+                "question": "average age of students of an adult school is 40 years . 120 new students whose average age is 32 years joined the school . as a result the average age is decreased by 4 years . find the number of students of the school after joining of the new students .",
+                "answer": "240"
+            },
+            {
+                "question": "sophia finished 2 / 3 of a book . she calculated that she finished 90 more pages than she has yet to read . how long is her book ?",
+                "answer": ""
+            }
+        ],
+        "prompt": "Here are some examples of questions and answers.\nQ: the banker ' s gain of a certain sum due 3 years hence at 10 % per annum is rs . 36 . what is the present worth ?\nA: rs . 400\nQ: average age of students of an adult school is 40 years . 120 new students whose average age is 32 years joined the school . as a result the average age is decreased by 4 years . find the number of students of the school after joining of the new students .\nA: 240\nNow answer the following question.\nQ: sophia finished 2 / 3 of a book . she calculated that she finished 90 more pages than she has yet to read . how long is her book ?\nA: ",
+        "response": "Let's solve the problem.\n\nLet the number of pages in the book be x.\n\nNumber of pages Sophia has read = 2/3x\nLet the number of pages Sophia has let be be y = Lett = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let = Let Let"
+    },
+    {
+        "id": 2,
+        "questions": [
+            {
+                "question": "120 is what percent of 50 ?",
+                "answer": "240%"
+            },
+            {
+                "question": "there are 10 girls and 20 boys in a classroom . what is the ratio of girls to boys ?",
+                "answer": "1-2"
+            },
+            {
+                "question": "an empty fuel tank with a capacity of 218 gallons was filled partially with fuel a and then to capacity with fuel b . fuel a contains 12 % ethanol by volume and fuel b contains 16 % ethanol by volume . if the full fuel tank contains 30 gallons of ethanol , how many gallons of fuel a were added ?",
+                "answer": ""
+            }
+        ],
+        "prompt": "Here are some examples of questions and answers.\nQ: 120 is what percent of 50 ?\nA: 240%\nQ: there are 10 girls and 20 boys in a classroom . what is the ratio of girls to boys ?\nA: 1-2\nNow answer the following question.\nQ: an empty fuel tank with a capacity of 218 gallons was filled partially with fuel a and then to capacity with fuel b . fuel a contains 12 % ethanol by volume and fuel b contains 16 % ethanol by volume . if the full fuel tank contains 30 gallons of ethanol , how many gallons of fuel a were added ?\nA: ",
+        "response": "Let's solve this problem step's go step by's go.\n\nLet's say the number of gallons of fuel A added be x.\n\nThe total amount of ethanol in fuel A is 12% of x, which is 0.12x.\n\nThe total amount of ethanol in fuel B is 16% of the remaining amount of fuel, which is 30 - 0.12x.\n\nSince the total amount of ethanol in the full tank is 30, we set up the equation:\n\n0.12x + 16(30 - 0.12x) = 30\n\nSimplify the equation:\n\n0.12x + 480 - 16*0.12L = 30\n\nSimplify the equation:\n\n0.12L = 30\n\nLet L be the number of gallons of fuel L. Let L be the number of gallons of fuel L.\n\nLet L be the number of gallons of fuel L. Let L be the number of of"
+    },
+    {
+        "id": 3,
+        "questions": [
+            {
+                "question": "an article is bought for rs . 823 and sold for rs . 1000 , find the gain percent ?",
+                "answer": "21.50%"
+            },
+            {
+                "question": "6 workers should finish a job in 8 days . after 3 days came 4 workers join them . how many days m do they need to finish the same job ?",
+                "answer": "3"
+            },
+            {
+                "question": "j is 25 % less than p and 20 % less than t . t is q % less than p . what is the value of q ?",
+                "answer": ""
+            }
+        ],
+        "prompt": "Here are some examples of questions and answers.\nQ: an article is bought for rs . 823 and sold for rs . 1000 , find the gain percent ?\nA: 21.50%\nQ: 6 workers should finish a job in 8 days . after 3 days came 4 workers join them . how many days m do they need to finish the same job ?\nA: 3\nNow answer the following question.\nQ: j is 25 % less than p and 20 % less than t . t is q % less than p . what is the value of q ?\nA: ",
+        "response": "Let's solve this problem.\n\nLet's say P = x\n\nSince J is 25% less than P, L = P - (25/100)P = 0.75P\n\nAlso, L = 20% less than T, T = 1.2L\n\nNow, substitute the value of L in the equation, T = 1.2(0.75P)\n\nNow, Q = 20%\n\nSo, the value of Q is 20."
+    },
+    {
+        "id": 4,
+        "questions": [
+            {
+                "question": "a student was asked to find 4 / 5 of a number . but the student divided the number by 4 / 5 , thus the student got 36 more than the correct answer . find the number .",
+                "answer": "80"
+            },
+            {
+                "question": "the average weight of 8 person ' s increases by 1.5 kg when a new person comes in place of one of them weighing 75 kg . what might be the weight of the new person ?",
+                "answer": "81 kg"
+            },
+            {
+                "question": "a train 125 m long passes a man , running at 15 km / hr in the same direction in which the train is going , in 10 seconds . the speed of the train is ?",
+                "answer": ""
+            }
+        ],
+        "prompt": "Here are some examples of questions and answers.\nQ: a student was asked to find 4 / 5 of a number . but the student divided the number by 4 / 5 , thus the student got 36 more than the correct answer . find the number .\nA: 80\nQ: the average weight of 8 person ' s increases by 1.5 kg when a new person comes in place of one of them weighing 75 kg . what might be the weight of the new person ?\nA: 81 kg\nNow answer the following question.\nQ: a train 125 m long passes a man , running at 15 km / hr in the same direction in which the train is going , in 10 seconds . the speed of the train is ?\nA: ",
+        "response": "Let's solve it!\n\nThe distance the train travels in 10 seconds is 125 meters. So, the speed of the train is 125 m/10 s = 12.5 m/s. Now, let's convert the speed of the train in km/hr. 1 km = 1000 m, so 12.5 m/s = 12.5 * (1000/3600) km/hr = 12.5 * 5/36 km/hr = 25/6 km/hr = 25/6 * 15/1 = 25*15/6 = 375/6 = 62.5.\n\nSo, the speed of the train is 62.5 km/hr."
+    },
+    {
+        "id": 5,
+        "questions": [
+            {
+                "question": "the average of 15 result is 60 . average of the first 10 of them is 10 and that of the last 10 is 80 . find the 8 th result ?",
+                "answer": "200"
+            },
+            {
+                "question": "a vessel of capacity 2 litre has 30 % of alcohol and another vessel of capacity 6 litre had 40 % alcohol . the total liquid of 8 litre was poured out in a vessel of capacity 10 litre and thus the rest part of the vessel was filled with the water . what is the new concentration of mixture ?",
+                "answer": "30 % ."
+            },
+            {
+                "question": "the total of 324 of 20 paise and 25 paise make a sum of rs . 70 . the no of 20 paise coins is",
+                "answer": ""
+            }
+        ],
+        "prompt": "Here are some examples of questions and answers.\nQ: the average of 15 result is 60 . average of the first 10 of them is 10 and that of the last 10 is 80 . find the 8 th result ?\nA: 200\nQ: a vessel of capacity 2 litre has 30 % of alcohol and another vessel of capacity 6 litre had 40 % alcohol . the total liquid of 8 litre was poured out in a vessel of capacity 10 litre and thus the rest part of the vessel was filled with the water . what is the new concentration of mixture ?\nA: 30 % .\nNow answer the following question.\nQ: the total of 324 of 20 paise and 25 paise make a sum of rs . 70 . the no of 20 paise coins is\nA: ",
+        "response": "Let's solve the problem.\n\nLet the number of 20 p coins be x.\nThe total value of 20 p coins = 20x\nThe total value of 25 p coins = 25y\nThe total value of 20 p and 25 p = 70\n20x + 25y = 70\n\nNow, 20x = 70 - 25y\n20x = 70\nx = 70/20\nx = 7\n\nSo, the number of 20 p coins is 7."
+    },
+    {
+        "id": 6,
+        "questions": [
+            {
+                "question": "in 1970 there were 8,902 women stockbrokers in the united states . by 1978 the number had increased to 18,947 . approximately what was the percent increase ?",
+                "answer": "113%"
+            },
+            {
+                "question": "what is the number of integers from 1 to 1100 ( inclusive ) that are divisible by neither 11 nor by 35 ?",
+                "answer": "945"
+            },
+            {
+                "question": "arun makes a popular brand of ice cream in a rectangular shaped bar 6 cm long , 5 cm wide and 2 cm thick . to cut costs , the company had decided to reduce the volume of the bar by 19 % . the thickness will remain same , but the length and width will be decreased by some percentage . the new width will be ,",
+                "answer": ""
+            }
+        ],
+        "prompt": "Here are some examples of questions and answers.\nQ: in 1970 there were 8,902 women stockbrokers in the united states . by 1978 the number had increased to 18,947 . approximately what was the percent increase ?\nA: 113%\nQ: what is the number of integers from 1 to 1100 ( inclusive ) that are divisible by neither 11 nor by 35 ?\nA: 945\nNow answer the following question.\nQ: arun makes a popular brand of ice cream in a rectangular shaped bar 6 cm long , 5 cm wide and 2 cm thick . to cut costs , the company had decided to reduce the volume of the bar by 19 % . the thickness will remain same , but the length and width will be decreased by some percentage . the new width will be ,\nA: ",
+        "response": "Let's solve this problem.\n\nLet the original length and width be L and W. Since the length and width will be decreased by 19% to reduce the volume, we can say that the new length and width are L1 = L - 0.19L = 0.81L and W1 = W - 0.19W = 0.81W.\n\nSince the area of the original bar is 6*5*2 = 60, the new area is 0.81*0.81*60 = 50.41.\n\nSo, the new width is 5*0.81 = 4.05."
+    },
+    {
+        "id": 7,
+        "questions": [
+            {
+                "question": "kim finds a 5 - meter tree branch and marks it off in thirds and fifths . she then breaks the branch along all the markings and removes one piece of every distinct length . what fraction of the original branch remains ?",
+                "answer": "03-May"
+            },
+            {
+                "question": "mark bought a set of 6 flower pots of different sizes at a total cost of $ 8.25 . each pot cost 0.1 more than the next one below it in size . what was the cost , in dollars , of the largest pot ?",
+                "answer": "$ 1.62"
+            },
+            {
+                "question": "in the above number , a and b represent the tens and units digits , respectively . if the above number is divisible by 45 , what is the greatest possible value of b x a ?",
+                "answer": ""
+            }
+        ],
+        "prompt": "Here are some examples of questions and answers.\nQ: kim finds a 5 - meter tree branch and marks it off in thirds and fifths . she then breaks the branch along all the markings and removes one piece of every distinct length . what fraction of the original branch remains ?\nA: 03-May\nQ: mark bought a set of 6 flower pots of different sizes at a total cost of $ 8.25 . each pot cost 0.1 more than the next one below it in size . what was the cost , in dollars , of the largest pot ?\nA: $ 1.62\nNow answer the following question.\nQ: in the above number , a and b represent the tens and units digits , respectively . if the above number is divisible by 45 , what is the greatest possible value of b x a ?\nA: ",
+        "response": "Let's solve the problem.\n\nThe number is 10a + b. Since it's divisible by 45, it's also divisible by 9 and 5. Let's find the possible values of LCM(9, 10a + b) = 5a + b = 5a. Since LCM(5,  = 5, the greatest possible value of L is 5a = 5. So, the greatest possible value of b x a is 5."
+    },
+    {
+        "id": 8,
+        "questions": [
+            {
+                "question": "the profit obtained by selling an article for rs . 57 is the same as the loss obtained by selling it for rs . 43 . what is the cost price of the article ?",
+                "answer": "rs . 50"
+            },
+            {
+                "question": "in 2008 , the profits of company n were 8 percent of revenues . in 2009 , the revenues of company n fell by 20 percent , but profits were 15 percent of revenues . the profits in 2009 were what percent of the profits in 2008 ?",
+                "answer": "150%"
+            },
+            {
+                "question": "a garrison of 2000 men has provisions for 54 days . at the end of 15 days , a reinforcement arrives , and it is now found that the provisions will last only for 20 days more . what is the reinforcement ?",
+                "answer": ""
+            }
+        ],
+        "prompt": "Here are some examples of questions and answers.\nQ: the profit obtained by selling an article for rs . 57 is the same as the loss obtained by selling it for rs . 43 . what is the cost price of the article ?\nA: rs . 50\nQ: in 2008 , the profits of company n were 8 percent of revenues . in 2009 , the revenues of company n fell by 20 percent , but profits were 15 percent of revenues . the profits in 2009 were what percent of the profits in 2008 ?\nA: 150%\nNow answer the following question.\nQ: a garrison of 2000 men has provisions for 54 days . at the end of 15 days , a reinforcement arrives , and it is now found that the provisions will last only for 20 days more . what is the reinforcement ?\nA: ",
+        "response": "Let's solve this problem.\n\nLet the number of men in the reinforcement be x.\n\nThe total number of men in the garrison after 15 days is 2000 + x.\n\nThe provisions will last for 20 days. So, the number of men that can be fed for 20 days is 2000 + x.\n\nNow, the number of men that can be fed for  = 2000 + x\n\nLet's say the number of men that can be fed for 20 days be y.\n\nSo, 2000 + l = l\n\nNow, l = 2000 + l\n\nNow, l = 2000\n\nSo, l = 2000\n\nNow, l = 2000\n\nSo, l = 2000\n\nNow, l = 2000\n\nSo, l = 2000\n\nLet's solve the problem.\n\nLet the number of men in the reinforcement be x.\n\nThe total number of men in the the"
+    },
+    {
+        "id": 9,
+        "questions": [
+            {
+                "question": "if a bicyclist in motion increases his speed by 30 percent and then increases this speed by 10 percent , what percent of the original speed is the total increase in speed ?",
+                "answer": "43%"
+            },
+            {
+                "question": "what is the greatest number that divides 263 , 935 and 1383 leaving a remainder of 7 in each case ?",
+                "answer": "32"
+            },
+            {
+                "question": "how many seconds will a 900 meter long train moving with a speed of 63 km / hr take to cross a man walking with a speed of 3 km / hr in the direction of the train ?",
+                "answer": ""
+            }
+        ],
+        "prompt": "Here are some examples of questions and answers.\nQ: if a bicyclist in motion increases his speed by 30 percent and then increases this speed by 10 percent , what percent of the original speed is the total increase in speed ?\nA: 43%\nQ: what is the greatest number that divides 263 , 935 and 1383 leaving a remainder of 7 in each case ?\nA: 32\nNow answer the following question.\nQ: how many seconds will a 900 meter long train moving with a speed of 63 km / hr take to cross a man walking with a speed of 3 km / hr in the direction of the train ?\nA: ",
+        "response": "Let's break it down step's go!\n\nThe train is moving towards the man, so we add their speeds. The train's speed is 63 km/hr and the man's speed is 3 km/hr. So, the relative speed of the train and the man is 63 + 3 = 66 km/hr.\n\nNow, let's convert the distance into seconds. 1 km = 1000 m, so 900 m = 0.9 km. Now, convert the speed into meters per second. 1 km/hr = 5/60 = 0.5 m/s. So, the speed of the train is 0.9 * 0.5 = 0.45 m/s.\n\nNow, the time it takes for the train to cross the man is the distance divided by the relative speed. Let's calculate it! Time = Distance / Speed = 0.9 / 0.45 = 2 seconds."
+    },
+    {
+        "id": 10,
+        "questions": [
+            {
+                "question": "find the average of all the numbers between 6 and 38 which are divisible by 4 .",
+                "answer": "22"
+            },
+            {
+                "question": "if the cost price is 96 % of sp then what is the profit %",
+                "answer": "4.17%"
+            },
+            {
+                "question": "a car gets 27 miles to the gallon . if it is modified to use a solar panel , it will use only 75 percent as much fuel as it does now . if the fuel tank holds 14 gallons , how many more miles will the car be able to travel , per full tank of fuel , after it has been modified ?",
+                "answer": ""
+            }
+        ],
+        "prompt": "Here are some examples of questions and answers.\nQ: find the average of all the numbers between 6 and 38 which are divisible by 4 .\nA: 22\nQ: if the cost price is 96 % of sp then what is the profit %\nA: 4.17%\nNow answer the following question.\nQ: a car gets 27 miles to the gallon . if it is modified to use a solar panel , it will use only 75 percent as much fuel as it does now . if the fuel tank holds 14 gallons , how many more miles will the car be able to travel , per full tank of fuel , after it has been modified ?\nA: ",
+        "response": "Let's calculate the number of miles the car can travel with the current fuel tank.\n\nThe car can travel 27 miles per gallon. Since the fuel tank holds 14 gallons, the car can travel 27 * 14 = 378 miles.\n\nNow, let's calculate the new number of miles the car can travel with the modified fuel. Since the car will use 75% as much fuel as it does now, it will use 0.75 * 14 = 10.5 gallons.\n\nThe car can travel 10.5 * 27 = 283.5 miles with the new fuel.\n\nSo, the car can let's travel 378 - 283.5 = 94.5 more miles."
+    }
+]

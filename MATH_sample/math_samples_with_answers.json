@@ -138,7 +138,7 @@
     "category": "number_theory"
   },
   {
-    "problem_text": "Find the 6-digit repetend in the decimal representation of $\\frac 3{13}.$",
+    "problem_text": "Find the 6-digit repetend in the decimal representation of 3/13",
     "reference_answer": "We use long division to find that the decimal representation of $\\frac{3}{13}$ is $0.\\overline{230769},$ which has a repeating block of 6 digits. So the repetend is $\\boxed{230769}.$",
     "model_answer": "A math problem!\n\nLet's break it down. To find the repetend, we can start by dividing 3 by 13:\n\n3 \u00f7 13 = 0.230769...\n\nLook familiar? That's because the repetend is 230769. It repeats every 6 digits!\n\nSo, the answer is: The 6-digit repetend in the decimal representation of $\\frac 3{13}$ is 230769.",
     "category": "number_theory"

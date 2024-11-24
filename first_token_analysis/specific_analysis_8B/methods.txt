@@ -1,0 +1,16 @@
+enthusiasm_steering
+    Feature("The model's turn to speak, especially with enthusiasm")
+    pin
+    0.6
+mathematical_reasoning_steering
+    Feature("Introduction of variables or assumptions in mathematical reasoning")
+    pin
+    0.6
+mathematical_reasoning_steering_nudge
+    Feature("Introduction of variables or assumptions in mathematical reasoning")
+    nudge
+    0.6
+step_by_step_steering
+    Feature("The model is beginning a step-by-step explanation")
+    pin
+    0.6

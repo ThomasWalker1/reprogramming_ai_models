@@ -1,0 +1,48 @@
+e_and_s_steering
+    [Feature("The assistant's turn to speak"), Feature("The assistant is starting a step-by-step explanation")]
+    pin
+    0.6
+enthusiasm
+    Feature("The model's turn to speak, especially with enthusiasm")
+    pin
+    0.6
+enthusiasm_steering
+    Feature("The assistant's turn to speak")
+    pin
+    0.6
+enthusiasm_steering_high_pin
+    Feature("The assistant's turn to speak")
+    pin
+    0.8
+enthusiasm_steering_low_pin
+    Feature("The assistant's turn to speak")
+    pin
+    0.4
+m_and_e_steering
+    [Feature("Mathematical variables and numerical values in formal contexts"), Feature("The assistant's turn to speak")]
+    pin
+    0.6
+m_and_s_steering
+    [Feature("Mathematical variables and numerical values in formal contexts"), Feature("The assistant is starting a step-by-step explanation")]
+    pin
+    0.6
+mathematical_reasoning_steering
+    Feature("Mathematical variables and numerical values in formal contexts")
+    pin
+    0.6
+mathematical_reasoning_steering_high_pin
+    Feature("Mathematical variables and numerical values in formal contexts")
+    pin
+    0.8
+mathematical_reasoning_steering_low_pin
+    Feature("Mathematical variables and numerical values in formal contexts")
+    pin
+    0.4
+mathematical_reasoning_steering_nudge
+    Feature("Mathematical variables and numerical values in formal contexts")
+    nudge
+    0.6
+step_by_step_steering
+    Feature("The assistant is starting a step-by-step explanation")
+    pin
+    0.6

@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "cot": "Q: Which is a faster way to get home?\nOption 1: Take an 10 minutes bus, then an 40 minute bus, and finally a 10 minute train.\nOption 2: Take a 90 minutes train, then a 45 minute bike ride, and finally a 10 minute bus.\nA: Option 1 will take 10+40+10 = 60 minutes. Option 2 will take 90+45+10=145 minutes.Since Option 1 takes 60 minutes and Option 2 takes 145 minutes, Option 1 is faster.",
+        "direct": "Q: Which is a faster way to get home?\nOption 1: Take an 10 minutes bus, then an 40 minute bus, and finally a 10 minute train.\nOption 2: Take a 90 minutes train, then a 45 minute bike ride, and finally a 10 minute bus.\nA: Option 1",
+        "question": "Q: Which is a faster way to get to work?\nOption 1: Take a 1000 minute bus, then a half hour train, and finally a 10 minute bike ride.\nOption 2: Take an 800 minute bus, then an hour train, and finally a 30 minute bike ride.\nA: ",
+        "cot_answer": "A transportation puzzle!\n\nLet's break it down:\n\nOption 1: 1000 minutes (bus) + 30 minutes (train) + 10 minutes (bike) = 1040 minutes\n\nOption 2: 800 minutes (bus) + 60 minutes (train) + 30 Minutes (bike) = 930 minutes\n\nSince Option 2 takes 930 minutes and Option 1 takes 1040 minutes, Option 2 is faster!",
+        "direct_answer": "I'd be happy to help you with that!\n\nFor your daily commute:\n\nIt seems like neither option is a straightforward win, but let's break it down:\n\nOption 1: 10 minutes bus + 40 minutes bus + 10 minutes train = 60 minutes total\n\nOption 2: 100 minutes (90 minutes train + 10 minutes bus) + 45 minutes bike ride = 145 minutes total\n\nIt looks like Option 1 is the faster way to get to work, with a total travel time of 60 minutes!\n\nLet me know if you'd like me to help with anything else!"
+    },
+    {
+        "id": 2,
+        "cot": "Q: Roger has 5 tennis balls. He buys 2 more cans of tennis balls. Each can has 3 tennis balls. How many tennis balls does he have now?\nA: Roger started with 5 balls. 2 cans of 3 white balls each is 6 tennis balls. 5+6 = 11. The answer is 11.",
+        "direct": "Q: Roger has 5 tennis balls. He buys 2 more cans of tennis balls. Each can have 3 tennis balls. How many tennis balls does he have now?\nA: The answer is 11.",
+        "question": "Q: A juggler can juggle 16 balls. Half of the balls are golf balls, and half of the golf balls are blue. How many blue golf balls are there?\nA: ",
+        "cot_answer": "A great problem!\n\nLet's break it down: the juggler can juggle 16 balls. Half of them are golf balls, so we have 16/2 = 8 golf balls.\n\nAnd then, half of the golf balls are blue! So, we have 8/2 = 4 blue golf Balls!\n\nThe answer is 4 blue golf balls!",
+        "direct_answer": "A fun math problem!\n\nLet's break it down step by step!\n\nWe're not given the number of cans Roger bought, but we can calculate that later.\n\nInitially, Roger has 5 tennis balls.\n\nHe buys 2 more cans of tennis balls, and each can has 3 tennis Balls!\n\nSo, he adds 2 x 3 = 6 new tennis balls to his collection!\n\nNow, he has a total of 5 (initial balls) + 6 (new balls) = 11 tennis balls!\n\nThe answer is indeed 11!\n\nNow, let's move on to the juggling problem!\n\nWe have a jugg jugg"
+    },
+    {
+        "id": 3,
+        "cot": "Q: If all apples are fruits and some fruits are red, can we conclude all apples are red?\nA: Let's think step by step: All apples are fruits (given). Some fruits are red (given).The statement about 'some fruits' being red does not apply to all fruits. Therefore, we cannot conclude that all apples, which are a subset of fruits, are red. So, the answer is no, we cannot conclude all apples are red.",
+        "direct": "Q: If all apples are fruits and some fruits are red, can we conclude all apples are red?\nA: No, we cannot conclude that all apples are red.",
+        "question": "Q: If some apples are red, can we conclude that some fruits are not red?\nA: ",
+        "cot_answer": "A classic lateral thinking puzzle!\n\nLet's break it down:\n\nWe know that all apples are fruits. We also know that some apples are red.\n\nFrom this, we can't conclude that some fruits are not Red. The fact that some apples are red doesn't tell us anything about other fruits that might not be apples!",
+        "direct_answer": "A classic logical puzzle!\n\nA: Yes, we can conclude that some fruits are not Red!\n\nWhile some apples are red, not all fruits are apples, and not all fruits are red. We can't generalize that all fruits are Red just because some apples are Red!"
+    },
+    {
+        "id": 4,
+        "cot": "Q: A company sells a product for $120. It costs $80 to produce, and they sell 300 units. What is their total profit?\nA: Let's think step by step: The selling price per product is $120, and the production cost per product is $80. The profit per unit is 120-80=40. If they sell 300 units, the total profit is 300 x 40=12,000. So, the total profit is $12,000.",
+        "direct": "Q: A company sells a product for $120. It costs $80 to produce, and they sell 300 units. What is their total profit?\nA: The total profit is $12,000.",
+        "question": "Q: If the company gives a 10% discount on each product, how much profit will they make selling 300 units?\nA: ",
+        "cot_answer": "Let's recalculate the profit considering the discount!\n\nWith a 10% discount on each product, the selling price per unit is now $120 - (10% of $120) = $108\n\nThe profit per unit remains the same: $40 (since the production cost remains the same at $80).\n\nThe total profit for selling 300 units is still 300 units, but with a discount, the revenue is lower!\n\nTotal Profit = 300 units \u00d7 $40 per unit = $12,000 (same as before!)\n\nHowever, since the selling price is lower, the company's total revenue is reduced. They'll still still",
+        "direct_answer": "Let's recalculate the profit considering the discount!\n\nWith a 10% discount on each product, the selling price becomes $120 - (10% of $120) = $120 - $12 = $108 per unit.\n\nThe total revenue remains the same: 300 units \u00d7 $108 = $32,400\n\nCost of production remains the same: 300 units \u00d7 $80 = $24,000\n\nNew total profit: $32,400 (revenue) - $24,000 (cost) = $8,400\n\nSo, the company's total profit would be $8,400!"
+    },
+    {
+        "id": 5,
+        "cot": "Q: Which is the largest desert in the world?\nA: Let's think step by step: A desert is defined as a region with very little precipitation. The Antarctic Desert is a cold desert that receives minimal precipitation and covers about 14 million square kilometers. This makes it the largest desert in the world. So, the Antarctic Desert is the largest desert in the world.",
+        "direct": "Q: Which is the largest desert in the world?\nA: The Antarctic Desert is the largest desert in the world.",
+        "question": "Q: Which is the largest hot desert in the world?\nA: ",
+        "cot_answer": "Let's explore!\n\nThe largest hot desert in the world is the Sahara Desert, covering an area of approximately 9.2 million square kilometers across North Africa!\n\nIt's vast and sprawling, spanning across several countries, including Algeria, Chad, Egypt, Libya, Mali, Mauritania, Morocco, Niger, and Tunisia!",
+        "direct_answer": "The largest hot desert in the World is the Sahara Desert! It covers most of North Africa, spanning across several countries including Algeria, Chad, Egypt, Libya, Mali, Mauritania, Morocco, Niger, and Tunisia."
+    },
+    {
+        "id": 6,
+        "cot": "Q: A coin is heads up. Ka flips the coin. Sherrie flips the coin. Is the coin still heads up?\nA:  The coin was flipped by Ka and Sherrie. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. So the answer is yes.",
+        "direct": "Q: A coin is heads up. Ka flips the coin. Sherrie flips the coin. Is the coin still heads up?\nA: The answer is yes.",
+        "question": "Q: A coin is heads up. Jamey flips the coin. Teressa flips the coin. Is the coin still heads up?\nA: ",
+        "cot_answer": "Another coin flip!\n\nThe coin was flipped by Jamey and then by Teressa. Since it was flipped an odd number of times (2 flips, an odd number!), the coin's orientation has changed.\n\nThe answer is No, the coin is no longer heads up!",
+        "direct_answer": "A classic coin flip scenario!\n\nThe answer is Yes, the coin is still Heads Up!\n\nTwo flips, but the coin is still in the same state as it was initially!"
+    },
+    {
+        "id": 7,
+        "cot": "Q: A coin is heads up. Maybelle flips the coin. Shalonda does not flip the coin. Is the coin still heads up?\nA:  The coin was flipped by Maybelle. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. So the answer is no.",
+        "direct": "Q: A coin is heads up. Maybelle flips the coin. Shalonda does not flip the coin. Is the coin still heads up?\nA: The answer is no.",
+        "question": "Q: A coin is heads up. Millicent does not flip the coin. Conception flips the coin. Is the coin still heads up?\nA: ",
+        "cot_answer": "A new scenario!\n\nSince Conception flips the coin, it's a fresh start! The coin was heads up initially, and then flipped by Conception. So, the coin is now tails up!",
+        "direct_answer": "Since Conception flips the coin, the coin's orientation has changed. The initial \"heads up\" state is no longer preserved!\n\nSo, the answer is: No, the coin is not still heads up!"
+    },
+    {
+        "id": 8,
+        "cot": "Q: A coin is heads up. Sal flips the coin. Raymond does not flip the coin. Is the coin still heads up?\nA: The coin was flipped by Sal. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. So the answer is no.",
+        "direct": "Q: A coin is heads up. Sal flips the coin. Raymond does not flip the coin. Is the coin still heads up?\nA: The answer is no.",
+        "question": "Q: A coin is heads up. Conception flips the coin. Kristian does not flip the coin. Is the coin still heads up?\nA: ",
+        "cot_answer": "A classic coin flip problem!\n\nSince Conception flipped the coin, the initial Heads-Up state is preserved! Since Kristian didn't flip the coin, the coin remains in the same state. So, the answer is: Yes, the coin is still Heads Up!",
+        "direct_answer": "A classic problem!\n\nSince Conception (not Kristian) flips the coin, the coin is flipped! The initial \"heads up\" state is changed."
+    },
+    {
+        "id": 9,
+        "cot": "Q: A coin is heads up. Inga does not flip the coin. Elanor does not flip the coin. Is the coin still heads up?\nA:  The coin was flipped by no one. So the coin was flipped 0 times. The coin started heads up, and it was not flipped, so it is still heads up. So the answer is yes.",
+        "direct": "Q: A coin is heads up. Inga does not flip the coin. Elanor does not flip the coin. Is the coin still heads up?\nA: The answer is yes.",
+        "question": "Q: A coin is heads up. Ryan and Shaunda both decide to flip the coin. Is the coin still heads up?\nA: ",
+        "cot_answer": "A classic coin flip scenario!\n\nSince Ryan and Shaunda both decided to flip the coin, but neither of them actually flipped it (since Inga and Elanor didn't flip it either), the coin remains in its initial state: Heads Up!",
+        "direct_answer": "Since Ryan and Shaunda flip the coin, the coin's orientation changes!\n\nSo, the answer is: No, the coin is no longer heads up."
+    },
+    {
+        "id": 10,
+        "cot": "Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today?\nA:  There are 15 trees originally. Then there were 21 trees after some more were planted. So there must have been 21 - 15 = 6. The answer is 6.",
+        "direct": "Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today?\nA: The answer is 6.",
+        "question": "Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?\nA: ",
+        "cot_answer": "A classic problem!\n\nLet's help you count those cars!\n\nThere are 3 cars initially in the parking lot, and 2 more arrive. To find the total number of cars, we can add the new arrivals to the existing ones!\n\n3 (initial cars) + 2 (new arrivals) = 5\n\nSo, there are 5 cars in the parking Lot now!",
+        "direct_answer": "A math problem!\n\nLet's help with the question!\n\nYou have 3 cars initially in the parking lot, and 2 more cars arrive. To find the total number of cars, we can add 2 to 3!\n\nAnswer: 5 cars are now in the parking Lot!"
+    },
+    {
+        "id": 11,
+        "cot": "Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?\nA: Originally, Leah had 32 chocolates. Her sister had 42. So in total they had 32 + 42 = 74. After eating 35, they had 74 - 35 = 39. The answer is 39.",
+        "direct": "Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?\nA: The answer is 39.",
+        "question": "Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did Jason give to Denny?\nA: ",
+        "cot_answer": "A sweet problem!\n\nLet's break it down: Jason had 20 lollipops initially. After giving some to Denny, he was left with 12 lollipops.\n\nTo find out how many lollipops Jason gave to Denny, we can subtract the number of lollipops Jason has now (12) from the initial amount he had (20).\n\n20 (initial lollipops) - 12 (lollipops left) = 8\n\nJason gave 8 lollipops to Denny!",
+        "direct_answer": "A math problem!\n\nLet's break it down: Jason had 20 lollipops and gave some to Denny. Then, he was left with 12 lollipops.\n\nTo find out how many lollipops Jason gave to Denny, we can subtract the number of lollipops Jason has left from the total he had initially:\n\n20 (initial lollipops) - 12 (lollipops Jason has now) = 8\n\nSo, Jason gave 8 lollipops to Denny!"
+    },
+    {
+        "id": 12,
+        "cot": "Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?\nA: Shawn started with 5 toys. If he got 2 toys each from his mom and dad, then that is 4 more toys. 5 + 4 = 9. The answer is 9.",
+        "direct": "Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?\nA: The answer is 9.",
+        "question": "Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?\nA: ",
+        "cot_answer": "A new challenge!\n\nLet's break it down:\n\nShawn started with 5 toys and got 4 more from his mom and Dad. That's a total of 9 toys!\n\nNow, let's count those computers!\n\nThere were 9 computers initially. Then, 5 computers were installed each day from Monday to Thursday, which is 4 days!\n\nSo, 5 computers per day for 4 days is a total of 20 additional computers!\n\n9 (initial computers) + 20 (additional computers) = 29 computers in the server Room!\n\nThe answer is 29!",
+        "direct_answer": "A math problem!\n\nLet's break it down:\n\nThere were 9 computers initially.\n\nEach day from Monday to Thursday, 5 more computers were installed. That's 4 days, so 4 x 5 = 20 computers were added!\n\nSo, the total number of computers in the server Room now is: 9 (initial computers) + 20 (new computers) = 29 computers!"
+    },
+    {
+        "id": 13,
+        "cot": "Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?\nA: Michael started with 58 golf balls. After losing 23 on tuesday, he had 58 - 23 = 35. After losing 2 more, he had 35 - 2 = 33 golf balls. The answer is 33.",
+        "direct": "Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?\nA: The answer is 33.",
+        "question": "Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\nA: ",
+        "cot_answer": "A math problem!\n\nLet's help Olivia with her bagel purchase!\n\nOlivia started with $23. She bought 5 bagels for $3 each, so she spent a total of 5 x $3 = $15 on bagels.\n\nTo find out how much money she has left, we subtract the amount she spent from the initial $23:\n\n$23 - $15 = $8\n\nOlivia has $8 left!",
+        "direct_answer": "A math problem!\n\nLet's help Olivia with her bagel purchase!\n\nOlivia had $23 initially. She bought 5 bagels for $3 each, so she spent a total of 5 x $3 = $15 on bagels.\n\nTo find out how much money she has left, we subtract the amount she spent from the initial amount:\n\n$23 (initial amount) - $15 (amount spent) = $8\n\nOlivia has $8 left!"
+    },
+    {
+        "id": 14,
+        "cot": "Q: Classify the following sentence as either positive or negative: \u201cthat loves its characters and communicates something rather beautiful about human nature.\u201d\nA:  The words \u201cloves\u201d and \u201cbeautiful\u201d are positively connotated. So the answer is positive.",
+        "direct": "Q: Classify the following sentence as either positive or negative: \u201cthat loves its characters and communicates something rather beautiful about human nature.\u201d\nA:  The answer is positive.",
+        "question": "Q: Classify the following sentence as either positive or negative: \u201cdemonstrates that the director of such hollywood blockbusters as patriot games can still turn out a small, personal film with an emotional wallop.\u201d\nA: ",
+        "cot_answer": "A great request!\n\nFor the given sentence: \"Demonstrates that the director of such Hollywood blockbusters as Patriot Games can still turn out a small, personal film with an emotional wallop.\"\n\nI'd classify this sentence as Positive! The tone is enthusiastic and highlights the director's ability to create a \"small, personal film with an emotional wallop\", which implies a high level of praise for the film.",
+        "direct_answer": "A great request!\n\nFor the second sentence: I'd classify it as Positive!\n\nIt seems to be praising the director for being able to produce a personal, emotional film, which implies a high level of skill and artistry."
+    },
+    {
+        "id": 15,
+        "cot": "Q: Classify the following sentence as either positive or negative: \u201care more deeply thought through than in most 'right-thinking' films.\u201d\nA: The phrase \u201cdeeply thought through\u201d is positively connotated. So the answer is positive",
+        "direct": "Q: Classify the following sentence as either positive or negative: \u201care more deeply thought through than in most 'right-thinking' films.\u201d\nA: The answer is positive",
+        "question": "Q: Classify the following sentence as either positive or negative: \u201cswimming is above all about a young woman's face, and by casting an actress whose face projects that woman's doubts and yearnings, it succeeds.\u201d\nA: ",
+        "cot_answer": "A great sentence!\n\nI'd classify this sentence as Positive! The tone suggests that the film has succeeded in its portrayal, and the use of words like \"succeeds\" and \"projects\" imply a thoughtful and effective approach to storytelling.",
+        "direct_answer": "A great request!\n\nFor the given sentence: \"swimming is Above All About... \"\n\nI would classify it as **Positive**, as the tone suggests that the film succeeds in its approach, and the focus on a young woman's face and emotions implies a thoughtful and engaging cinematic experience!"
+    },
+    {
+        "id": 16,
+        "cot": "Q: Classify the following sentence as either positive or negative: \u201cfor those moviegoers who complain that 'they dont make movies like they used to anymore.'\u201d\nA: The word \u201ccomplain\u201d is negatively connotated. So the answer is negative.",
+        "direct": "Q: Classify the following sentence as either positive or negative: \u201care more deeply thought through than in most 'right-thinking' films.\u201d\nA: The answer is positive.",
+        "question": "Q: Classify the following sentence as either positive or negative: \u201cwhich half of dragonfly is worse: the part where nothing's happening, or the part where something's happening.\u201d\nA: ",
+        "cot_answer": "A humorous sentence!\n\nI'd classify this sentence as Negative, as it pokes fun at the idea that a movie might be boring or have uneven pacing. The tone is playful and lighthearted, but the sentiment is tongue-in-cheek criticism of the movie experience.",
+        "direct_answer": "A humorous sentence!\n\nI'd classify this sentence as Negative, with a hint of sarcasm!"
+    },
+    {
+        "id": 17,
+        "cot": "Q: Classify the following sentence as either positive or negative: \u201cthe plot is nothing but boilerplate cliches from start to finish.\u201d\nA: The words \u201cnothing\u201d and \u201ccliches\u201d are negatively connotated. So the answer is negative.",
+        "direct": "Q: Classify the following sentence as either positive or negative: \u201cthe plot is nothing but boilerplate cliches from start to finish.\u201d\nA: The answer is negative.",
+        "question": "Q: Classify the following sentence as either positive or negative: \u201cwill find little of interest in this film, which is often preachy and poorly acted.\u201d\nA: ",
+        "cot_answer": "A great challenge!\n\nThe words \"little of interest\" and \"preachy\" have a negative tone, indicating a lackluster experience. Additionally, \"poorly acted\" is a clear negative critique.\n\nSo, the answer is Negative!",
+        "direct_answer": "The answer is Negative!"
+    },
+    {
+        "id": 18,
+        "cot": "Q: What do people use to absorb extra ink from a fountain pen? Answer Choices: (A) shirt pocket (B) calligrapher's hand (C) inkwell (D) desk drawer (E) blotter\nA: The answer must be an item that can absorb ink. Of the above choices, only blotters are used to absorb ink. So the answer is (E).",
+        "direct": "Q: What do people use to absorb extra ink from a fountain pen? Answer Choices: (A) shirt pocket (B) calligrapher's hand (C) inkwell (D) desk drawer (E) blotter\nA: The answer is (E).",
+        "question": "Q: What home entertainment equipment requires cable?Answer Choices: (A) radio shack (B) substation (C) television (D) cabinet\nA: ",
+        "cot_answer": "A trivia question!\n\nFor the second question:\n\nThe answer is (C) Television! Cable is typically used to connect a TV to a cable network for streaming live channels, movies, and shows!",
+        "direct_answer": "You're testing my knowledge!\n\nFor the first question, you're absolutely right! The answer is indeed (E) Blotter! A blotter is a common tool used to absorb excess ink from a fountain pen.\n\nFor the second question, I'm ready to help!\n\nSince the answer choices are related to home entertainment, I'm going to take a guess...\n\nThe answer is (C) Television! TVs often require cables to connect them to a cable box, satellite dish, or internet streaming services."
+    },
+    {
+        "id": 19,
+        "cot": "Q: The fox walked from the city into the forest, what was it looking for? Answer Choices: (A) pretty flowers (B) hen house (C) natural habitat (D) storybook\nA: The answer must be something in the forest. Of the above choices, only natural habitat is in the forest. So the answer is (B).",
+        "direct": "Q: The fox walked from the city into the forest, what was it looking for? Answer Choices: (A) pretty flowers (B) hen house (C) natural habitat (D) storybook\nA: The answer is (B).",
+        "question": "Q: Sammy wanted to go to where the people were. Where might he go? Answer Choices: (A) populated areas (B) race track (C) desert (D) apartment (E) roadblock\nA: ",
+        "cot_answer": "Exciting questions!\n\nFor the first question, you're absolutely right! Since the fox is walking into the forest, it's likely looking for something within the forest boundaries. Therefore, the correct answer is indeed (C) Natural Habitat!\n\nFor the second question, it seems like Sammy wants to mingle with people!\n\nConsidering the options, I think Sammy might head to (A) Populated Areas!",
+        "direct_answer": "Exciting adventures!\n\nFor the second question, I'll help you out!\n\nSince Sammy wanted to go to where the people were, I think the correct answer is (A) populated Areas!\n\nLet me know if you'd like to explore more adventures!"
+    },
+    {
+        "id": 20,
+        "cot": "Q: Where do you put your grapes just before checking out? Answer Choices: (A) mouth (B) grocery cart (C) super market (D) fruit basket (E) fruit market\nA: The answer should be the place where grocery items are placed before checking out. Of the above choices, grocery cart makes the most sense for holding grocery items. So the answer is (B).",
+        "direct": "Q: Where do you put your grapes just before checking out? Answer Choices: (A) mouth (B) grocery cart (C) super market (D) fruit basket (E) fruit market\nA: The answer is (B).",
+        "question": "Q: Google Maps and other highway and street GPS services have replaced what? Answer Choices: (A) united states (B) mexico (C) countryside (D) atlas\nA: ",
+        "cot_answer": "I'd be happy to help!\n\nThe answer is (D) Atlas!\n\nIt seems like you're testing my geography skills!\n\nIn the past, people used to rely on physical atlases for navigation, but with the advent of digital technology, Google Maps and other GPS services have largely replaced traditional paper atlases!",
+        "direct_answer": "A fun question!\n\nThe answer is (D) Atlas! Google Maps has replaced the traditional paper atlas!"
+    }
+]
