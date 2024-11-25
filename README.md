@@ -2,7 +2,7 @@
 
 This is the repository for our project "Encouraging Chain-of-Thought Reasoning in Language Models Through Feature Steering". The project was conducted by Soumyadeep Bose, Kutay Buyruk, Shreyan Jain and I (Thomas Walker), as part of the Apart Research spring "Reprogramming AI Models" sponsored by Goodfire AI.
 
-The report for our project can be found [here.](../reprogramming_ai_models/Encouraging%20Chain-of-Thought%20Reasoning.pdf)
+The report for our project can be found [here.](report.pdf)
 
 ## Motivation
 
