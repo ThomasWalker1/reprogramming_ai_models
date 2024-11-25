@@ -14,9 +14,9 @@ method="mathematical_reasoning_steering_nudge"
 if "baseline" in method:
     variant.reset()
 elif "steering" in method:
-    features,relevance=client.features.search("The model's turn to speak, especially with enthusiasm",model=variant,top_k=5)
-    #features,relevance=client.features.search("The model is beginning a step-by-step explanation",model=variant,top_k=5)
-    features,relevance=client.features.search("Introduction of variables or assumptions in mathematical reasoning",model=variant,top_k=5)
+    e_features,relevance=client.features.search("The model's turn to speak, especially with enthusiasm",model=variant,top_k=5)
+    s_features,relevance=client.features.search("The model is beginning a step-by-step explanation",model=variant,top_k=5)
+    m_features,relevance=client.features.search("Introduction of variables or assumptions in mathematical reasoning",model=variant,top_k=5)
 
     if os.path.exists("first_token_analysis/specific_analysis_8B/methods"):
         with open("first_token_analysis/specific_analysis_8B/methods","rb") as file:
@@ -24,7 +24,7 @@ elif "steering" in method:
     else:
         methods={}
 
-    methods[method]={"feature":features[0],
+    methods[method]={"feature":m_features[0],
                      "mode":"nudge",
                      "value":0.6}
 
@@ -42,7 +42,7 @@ elif "steering" in method:
             file.write(f"    {methods[key]["value"]}\n")
 
 
-with open(f"first_token_analysis/specific_analysis_8B/{method}.json","r",encoding="utf-8") as file:
+with open(f"../datasets/feature_analysis.json","r",encoding="utf-8") as file:
     questions=json.load(file)
 
 def query_model(prompt):
@@ -67,5 +67,5 @@ for (k,data) in pbar:
         questions[k]["response"]=query_model(prompt)
 
 
-with open(f"first_token_analysis/specific_analysis_8B/{method}.json","w",encoding="utf-8") as file:
+with open(f"token_analysis/specific_8B/{method}.json","w",encoding="utf-8") as file:
     json.dump(questions,file)

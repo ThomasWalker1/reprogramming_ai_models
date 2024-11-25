@@ -1,3 +1,0 @@
-goodfire
-tqdm
-scipy

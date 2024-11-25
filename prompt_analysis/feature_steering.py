@@ -21,11 +21,11 @@ client = goodfire.Client(
 variant = goodfire.Variant("meta-llama/Meta-Llama-3-8B-Instruct")
 
 
-with open("few_shot_steering_feature_thresholds.json","r") as file:
+with open("steering_thresholds.json","r") as file:
     steering_thresholds=json.load(file)
     
     
-test_dataset = pd.read_csv("math_qa_with_answers.csv")
+test_dataset = pd.read_csv("../datasets/math_qa/math_qa_with_answers.csv")
 test_dataset_sample = test_dataset.sample(100)
 
 

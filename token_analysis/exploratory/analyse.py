@@ -4,22 +4,14 @@ import json
 from tqdm import tqdm
 import pickle
 import os
-from copy import copy
 from scipy.stats import skew
 
+# Set up and load in the model variant from Goodfire
 with open("key.txt","r") as file:
     client=Client(api_key=file.readlines()[0])
 variant = goodfire.Variant("meta-llama/Meta-Llama-3-8B-Instruct")
 
-with open("few_shot_questions.json","r",encoding="utf-8") as file:
-    questions=json.load(file)
-
-if os.path.exists("features_at_first_token"):
-    with open("features_at_first_token","rb") as file:
-        features_at_first_token=pickle.load(file)
-else:
-    features_at_first_token={}
-
+# wrapper function to extract the top eight features at the first token given by the assistant
 def top_features(user,assistant):
     variant.reset()
 
@@ -39,38 +31,57 @@ def top_features(user,assistant):
         feat_data[s_vector[feat_id]]=(feat_id,feat_lookup[feat_id])
     return feat_data,toks[start_tok_idx]
 
+# wrapper function to collect the features of the baseline responses
 def get_data():
-    pbar=tqdm(questions,total=len(questions))
-    for question in pbar:
-        q_id=question["id"]
-        if q_id in features_at_first_token.keys():
+
+    # dictionary to store the extracted features
+    if os.path.exists("features"):
+        with open("features","rb") as file:
+            features=pickle.load(file)
+    else:
+        features={}
+
+    # load in the baseline responses
+    with open("token_analysis/exploratory/responses_baseline.json","r",encoding="utf-8") as file:
+        responses=json.load(file)
+
+    pbar=tqdm(responses,total=len(responses))
+    for response in pbar:
+        q_id=response["id"]
+        if q_id in features.keys():
             continue
         
-        features_at_first_token[q_id]={}
-        if "cot_answer" in question.keys():
-            cot_features,tok=top_features(question["cot"]+"\n"+question["question"],question["cot_answer"][:32])
-            features_at_first_token[q_id]["cot_features"]=cot_features
-            features_at_first_token[q_id]["cot_token"]=tok
-        if "direct_answer" in question.keys():
-            direct_features,tok=top_features(question["direct"]+"\n"+question["question"],question["direct_answer"][:32])
-            features_at_first_token[q_id]["direct_features"]=direct_features
-            features_at_first_token[q_id]["direct_token"]=tok
+        # extract the features at the CoT and direct answers
+        features[q_id]={}
+        if "cot_answer" in response.keys():
+            cot_features,tok=top_features(response["cot"]+"\n"+response["question"],response["cot_answer"][:32])
+            features[q_id]["cot_features"]=cot_features
+            features[q_id]["cot_token"]=tok
+        if "direct_answer" in response.keys():
+            direct_features,tok=top_features(response["direct"]+"\n"+response["question"],response["direct_answer"][:32])
+            features[q_id]["direct_features"]=direct_features
+            features[q_id]["direct_token"]=tok
 
-        with open("features_at_first_token.txt","w") as file:
-            for id in sorted(features_at_first_token.keys()):
+        # display the features for easy analysis
+        with open("token_analysis/exploratory/features.txt","w") as file:
+            for id in sorted(features.keys()):
                 file.write(str(id)+"\n")
-                if "cot_features" in features_at_first_token[id]:
-                    file.write(f"  chain-of-thought features at {features_at_first_token[id]["cot_token"]}\n")
-                    for activation in sorted(features_at_first_token[id]["cot_features"].keys(),reverse=True):
-                        file.write(f"    {features_at_first_token[id]["cot_features"][activation]} {activation}\n")
-                if "direct_features" in features_at_first_token[id]:
-                    file.write(f"  direct features at {features_at_first_token[id]["direct_token"]}\n")
-                    for activation in sorted(features_at_first_token[id]["direct_features"].keys(),reverse=True):
-                        file.write(f"    {features_at_first_token[id]["direct_features"][activation]} {activation}\n")
+                if "cot_features" in features[id]:
+                    file.write(f"  chain-of-thought features at {features[id]["cot_token"]}\n")
+                    for activation in sorted(features[id]["cot_features"].keys(),reverse=True):
+                        file.write(f"    {features[id]["cot_features"][activation]} {activation}\n")
+                if "direct_features" in features[id]:
+                    file.write(f"  direct features at {features[id]["direct_token"]}\n")
+                    for activation in sorted(features[id]["direct_features"].keys(),reverse=True):
+                        file.write(f"    {features[id]["direct_features"][activation]} {activation}\n")
 
-    with open("features_at_first_token","wb") as file:
-        pickle.dump(features_at_first_token,file)
+    # save the collection of features
+    with open("token_analysis/exploratory/features","wb") as file:
+        pickle.dump(features,file)
 
+# here we check through the given responses and determine which ones
+# exhibit the desired behavior (i.e. give CoT reason or answer directly
+# when prompted to do so).
 answer_validity={
     1:{"cot": True,
        "direct": True},
@@ -114,41 +125,45 @@ answer_validity={
        "direct": True}
 }
 
+# wrapper function to analyse the features
 def summarise_data():
-    with open("features_at_first_token","rb") as file:
-        features_at_first_token=pickle.load(file)
+    with open("token_analysis/exploratory/features","rb") as file:
+        features=pickle.load(file)
     
     cot_features={}
     direct_features={}
 
-    for answer_id in features_at_first_token.keys():
+    for answer_id in features.keys():
         if answer_validity[answer_id]["cot"]:
-            for (act,feat) in features_at_first_token[answer_id]["cot_features"].items():
+            for (act,feat) in features[answer_id]["cot_features"].items():
                 if feat[0] in cot_features.keys():
                     cot_features[feat[0]]["activations"].append(act)
                 else:
                     cot_features[feat[0]]={"activations":[act],
                                            "description":feat[1]}
         if answer_validity[answer_id]["direct"]:
-            for (act,feat) in features_at_first_token[answer_id]["direct_features"].items():
+            for (act,feat) in features[answer_id]["direct_features"].items():
                 if feat[0] in direct_features.keys():
                     direct_features[feat[0]]["activations"].append(act)
                 else:
                     direct_features[feat[0]]={"activations":[act],
                                            "description":feat[1]}
+    # counting the occurrence of features
     cot_feature_counts={feat_id:len(vals["activations"]) for (feat_id,vals) in cot_features.items()}
     direct_feature_counts={feat_id:len(vals["activations"]) for (feat_id,vals) in direct_features.items()}
+    # counting the cumulative activation of features
     cot_feature_cum={feat_id:sum(vals["activations"]) for (feat_id,vals) in cot_features.items()}
     direct_feature_cum={feat_id:sum(vals["activations"]) for (feat_id,vals) in direct_features.items()}
 
+    # calculating the skewness of the activation distribution of the features
     cot_activation_skewness=[]
     direct_activation_skewness=[]
 
-    for answer_id in features_at_first_token.keys():
+    for answer_id in features.keys():
         if answer_validity[answer_id]["cot"]:
-            cot_activation_skewness.append(skew(list(features_at_first_token[answer_id]["cot_features"].keys())))
+            cot_activation_skewness.append(skew(list(features[answer_id]["cot_features"].keys())))
         if answer_validity[answer_id]["direct"]:
-            direct_activation_skewness.append(skew(list(features_at_first_token[answer_id]["direct_features"].keys())))
+            direct_activation_skewness.append(skew(list(features[answer_id]["direct_features"].keys())))
 
 
     with open("features_at_first_token_summary.txt","w") as file:
@@ -167,8 +182,3 @@ def summarise_data():
         file.write("Direct Features by Cumulative Activation\n")
         for (feat_id,count) in dict(sorted(direct_feature_cum.items(), key=lambda item: item[1],reverse=True)).items():
             file.write(f"    {count} - {feat_id} - {direct_features[feat_id]["description"]}\n")
-
-    
-
-
-summarise_data()

@@ -1,0 +1,121 @@
+[
+    {
+        "id": 1,
+        "cot": "Q: Which is a faster way to get home?\nOption 1: Take an 10 minutes bus, then an 40 minute bus, and finally a 10 minute train.\nOption 2: Take a 90 minutes train, then a 45 minute bike ride, and finally a 10 minute bus.\nA: Option 1 will take 10+40+10 = 60 minutes. Option 2 will take 90+45+10=145 minutes.Since Option 1 takes 60 minutes and Option 2 takes 145 minutes, Option 1 is faster.",
+        "direct": "Q: Which is a faster way to get home?\nOption 1: Take an 10 minutes bus, then an 40 minute bus, and finally a 10 minute train.\nOption 2: Take a 90 minutes train, then a 45 minute bike ride, and finally a 10 minute bus.\nA: Option 1",
+        "question": "Q: Which is a faster way to get to work?\nOption 1: Take a 1000 minute bus, then a half hour train, and finally a 10 minute bike ride.\nOption 2: Take an 800 minute bus, then an hour train, and finally a 30 minute bike ride.\nA: "
+    },
+    {
+        "id": 2,
+        "cot": "Q: Roger has 5 tennis balls. He buys 2 more cans of tennis balls. Each can has 3 tennis balls. How many tennis balls does he have now?\nA: Roger started with 5 balls. 2 cans of 3 white balls each is 6 tennis balls. 5+6 = 11. The answer is 11.",
+        "direct": "Q: Roger has 5 tennis balls. He buys 2 more cans of tennis balls. Each can have 3 tennis balls. How many tennis balls does he have now?\nA: The answer is 11.",
+        "question": "Q: A juggler can juggle 16 balls. Half of the balls are golf balls, and half of the golf balls are blue. How many blue golf balls are there?\nA: "
+    },
+    {
+        "id": 3,
+        "cot": "Q: If all apples are fruits and some fruits are red, can we conclude all apples are red?\nA: Let's think step by step: All apples are fruits (given). Some fruits are red (given).The statement about 'some fruits' being red does not apply to all fruits. Therefore, we cannot conclude that all apples, which are a subset of fruits, are red. So, the answer is no, we cannot conclude all apples are red.",
+        "direct": "Q: If all apples are fruits and some fruits are red, can we conclude all apples are red?\nA: No, we cannot conclude that all apples are red.",
+        "question": "Q: If some apples are red, can we conclude that some fruits are not red?\nA: "
+    },
+    {
+        "id": 4,
+        "cot": "Q: A company sells a product for $120. It costs $80 to produce, and they sell 300 units. What is their total profit?\nA: Let's think step by step: The selling price per product is $120, and the production cost per product is $80. The profit per unit is 120-80=40. If they sell 300 units, the total profit is 300 x 40=12,000. So, the total profit is $12,000.",
+        "direct": "Q: A company sells a product for $120. It costs $80 to produce, and they sell 300 units. What is their total profit?\nA: The total profit is $12,000.",
+        "question": "Q: If the company gives a 10% discount on each product, how much profit will they make selling 300 units?\nA: "
+    },
+    {
+        "id": 5,
+        "cot": "Q: Which is the largest desert in the world?\nA: Let's think step by step: A desert is defined as a region with very little precipitation. The Antarctic Desert is a cold desert that receives minimal precipitation and covers about 14 million square kilometers. This makes it the largest desert in the world. So, the Antarctic Desert is the largest desert in the world.",
+        "direct": "Q: Which is the largest desert in the world?\nA: The Antarctic Desert is the largest desert in the world.",
+        "question": "Q: Which is the largest hot desert in the world?\nA: "
+    },
+    {
+        "id": 6,
+        "cot": "Q: A coin is heads up. Ka flips the coin. Sherrie flips the coin. Is the coin still heads up?\nA:  The coin was flipped by Ka and Sherrie. So the coin was flipped 2 times, which is an even number. The coin started heads up, so after an even number of flips, it will still be heads up. So the answer is yes.",
+        "direct": "Q: A coin is heads up. Ka flips the coin. Sherrie flips the coin. Is the coin still heads up?\nA: The answer is yes."
+    },
+    {
+        "id": 7,
+        "cot": "Q: A coin is heads up. Maybelle flips the coin. Shalonda does not flip the coin. Is the coin still heads up?\nA:  The coin was flipped by Maybelle. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. So the answer is no.",
+        "direct": "Q: A coin is heads up. Maybelle flips the coin. Shalonda does not flip the coin. Is the coin still heads up?\nA: The answer is no.",
+        "question": "Q: A coin is heads up. Millicent does not flip the coin. Conception flips the coin. Is the coin still heads up?\nA: "
+    },
+    {
+        "id": 8,
+        "cot": "Q: A coin is heads up. Sal flips the coin. Raymond does not flip the coin. Is the coin still heads up?\nA: The coin was flipped by Sal. So the coin was flipped 1 time, which is an odd number. The coin started heads up, so after an odd number of flips, it will be tails up. So the answer is no.",
+        "direct": "Q: A coin is heads up. Sal flips the coin. Raymond does not flip the coin. Is the coin still heads up?\nA: The answer is no.",
+        "question": "Q: A coin is heads up. Conception flips the coin. Kristian does not flip the coin. Is the coin still heads up?\nA: "
+    },
+    {
+        "id": 9,
+        "cot": "Q: A coin is heads up. Inga does not flip the coin. Elanor does not flip the coin. Is the coin still heads up?\nA:  The coin was flipped by no one. So the coin was flipped 0 times. The coin started heads up, and it was not flipped, so it is still heads up. So the answer is yes.",
+        "direct": "Q: A coin is heads up. Inga does not flip the coin. Elanor does not flip the coin. Is the coin still heads up?\nA: The answer is yes.",
+        "question": "Q: A coin is heads up. Ryan and Shaunda both decide to flip the coin. Is the coin still heads up?\nA: "
+    },
+    {
+        "id": 10,
+        "cot": "Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today?\nA:  There are 15 trees originally. Then there were 21 trees after some more were planted. So there must have been 21 - 15 = 6. The answer is 6.",
+        "direct": "Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today?\nA: The answer is 6.",
+        "question": "Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?\nA: "
+    },
+    {
+        "id": 11,
+        "cot": "Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?\nA: Originally, Leah had 32 chocolates. Her sister had 42. So in total they had 32 + 42 = 74. After eating 35, they had 74 - 35 = 39. The answer is 39.",
+        "direct": "Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?\nA: The answer is 39.",
+        "question": "Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did Jason give to Denny?\nA: "
+    },
+    {
+        "id": 12,
+        "cot": "Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?\nA: Shawn started with 5 toys. If he got 2 toys each from his mom and dad, then that is 4 more toys. 5 + 4 = 9. The answer is 9.",
+        "direct": "Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?\nA: The answer is 9.",
+        "question": "Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?\nA: "
+    },
+    {
+        "id": 13,
+        "cot": "Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?\nA: Michael started with 58 golf balls. After losing 23 on tuesday, he had 58 - 23 = 35. After losing 2 more, he had 35 - 2 = 33 golf balls. The answer is 33.",
+        "direct": "Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?\nA: The answer is 33.",
+        "question": "Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\nA: "
+    },
+    {
+        "id": 14,
+        "cot": "Q: Classify the following sentence as either positive or negative: \u201cthat loves its characters and communicates something rather beautiful about human nature.\u201d\nA:  The words \u201cloves\u201d and \u201cbeautiful\u201d are positively connotated. So the answer is positive.",
+        "direct": "Q: Classify the following sentence as either positive or negative: \u201cthat loves its characters and communicates something rather beautiful about human nature.\u201d\nA:  The answer is positive.",
+        "question": "Q: Classify the following sentence as either positive or negative: \u201cdemonstrates that the director of such hollywood blockbusters as patriot games can still turn out a small, personal film with an emotional wallop.\u201d\nA: "
+    },
+    {
+        "id": 15,
+        "cot": "Q: Classify the following sentence as either positive or negative: \u201care more deeply thought through than in most 'right-thinking' films.\u201d\nA: The phrase \u201cdeeply thought through\u201d is positively connotated. So the answer is positive",
+        "direct": "Q: Classify the following sentence as either positive or negative: \u201care more deeply thought through than in most 'right-thinking' films.\u201d\nA: The answer is positive",
+        "question": "Q: Classify the following sentence as either positive or negative: \u201cswimming is above all about a young woman's face, and by casting an actress whose face projects that woman's doubts and yearnings, it succeeds.\u201d\nA: "
+    },
+    {
+        "id": 16,
+        "cot": "Q: Classify the following sentence as either positive or negative: \u201cfor those moviegoers who complain that 'they dont make movies like they used to anymore.'\u201d\nA: The word \u201ccomplain\u201d is negatively connotated. So the answer is negative.",
+        "direct": "Q: Classify the following sentence as either positive or negative: \u201care more deeply thought through than in most 'right-thinking' films.\u201d\nA: The answer is positive.",
+        "question": "Q: Classify the following sentence as either positive or negative: \u201cwhich half of dragonfly is worse: the part where nothing's happening, or the part where something's happening.\u201d\nA: "
+    },
+    {
+        "id": 17,
+        "cot": "Q: Classify the following sentence as either positive or negative: \u201cthe plot is nothing but boilerplate cliches from start to finish.\u201d\nA: The words \u201cnothing\u201d and \u201ccliches\u201d are negatively connotated. So the answer is negative.",
+        "direct": "Q: Classify the following sentence as either positive or negative: \u201cthe plot is nothing but boilerplate cliches from start to finish.\u201d\nA: The answer is negative.",
+        "question": "Q: Classify the following sentence as either positive or negative: \u201cwill find little of interest in this film, which is often preachy and poorly acted.\u201d\nA: "
+    },
+    {
+        "id": 18,
+        "cot": "Q: What do people use to absorb extra ink from a fountain pen? Answer Choices: (A) shirt pocket (B) calligrapher's hand (C) inkwell (D) desk drawer (E) blotter\nA: The answer must be an item that can absorb ink. Of the above choices, only blotters are used to absorb ink. So the answer is (E).",
+        "direct": "Q: What do people use to absorb extra ink from a fountain pen? Answer Choices: (A) shirt pocket (B) calligrapher's hand (C) inkwell (D) desk drawer (E) blotter\nA: The answer is (E).",
+        "question": "Q: What home entertainment equipment requires cable?Answer Choices: (A) radio shack (B) substation (C) television (D) cabinet\nA: "
+    },
+    {
+        "id": 19,
+        "cot": "Q: The fox walked from the city into the forest, what was it looking for? Answer Choices: (A) pretty flowers (B) hen house (C) natural habitat (D) storybook\nA: The answer must be something in the forest. Of the above choices, only natural habitat is in the forest. So the answer is (B).",
+        "direct": "Q: The fox walked from the city into the forest, what was it looking for? Answer Choices: (A) pretty flowers (B) hen house (C) natural habitat (D) storybook\nA: The answer is (B).",
+        "question": "Q: Sammy wanted to go to where the people were. Where might he go? Answer Choices: (A) populated areas (B) race track (C) desert (D) apartment (E) roadblock\nA: "
+    },
+    {
+        "id": 20,
+        "cot": "Q: Where do you put your grapes just before checking out? Answer Choices: (A) mouth (B) grocery cart (C) super market (D) fruit basket (E) fruit market\nA: The answer should be the place where grocery items are placed before checking out. Of the above choices, grocery cart makes the most sense for holding grocery items. So the answer is (B).",
+        "direct": "Q: Where do you put your grapes just before checking out? Answer Choices: (A) mouth (B) grocery cart (C) super market (D) fruit basket (E) fruit market\nA: The answer is (B).",
+        "question": "Q: Google Maps and other highway and street GPS services have replaced what? Answer Choices: (A) united states (B) mexico (C) countryside (D) atlas\nA: "
+    }
+]
